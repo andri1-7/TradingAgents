@@ -200,6 +200,15 @@ def no_data_available(error: NoMarketDataError) -> str:
 def route_to_vendor(method: str, *args, **kwargs):
     """Route method calls to appropriate vendor implementation with fallback support."""
     category = get_category_for_method(method)
+    from tradingagents.dataflows.symbols import normalize_symbol
+
+    symbol = args[0] if args else kwargs.get("ticker", kwargs.get("symbol", ""))
+    is_idx = isinstance(symbol, str) and normalize_symbol(symbol).endswith(".JK")
+    if is_idx and method == "get_insider_transactions":
+        return (
+            "DATA_UNAVAILABLE: Indonesian insider transaction coverage is not supported. "
+            "This is not evidence of no transactions; consult IDX/OJK or issuer disclosures."
+        )
     vendor_config = get_vendor(category, method)
     primary_vendors = [v.strip() for v in vendor_config.split(',')]
 
@@ -223,6 +232,11 @@ def route_to_vendor(method: str, *args, **kwargs):
             )
     else:
         vendor_chain = all_available_vendors
+
+    if is_idx:
+        vendor_chain = [vendor for vendor in vendor_chain if vendor != "sec_edgar"]
+        if not vendor_chain:
+            return "DATA_UNAVAILABLE: US SEC EDGAR does not cover this IDX instrument."
 
     last_no_data: NoMarketDataError | None = None
     last_unavailable: VendorUnavailableError | None = None

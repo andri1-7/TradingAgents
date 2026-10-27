@@ -136,6 +136,8 @@ def normalize_symbol(raw: str) -> str:
         canonical = f"{int(hk.group(1)):04d}.HK"
     elif sh := _SHANGHAI_SH.match(s):
         canonical = f"{sh.group(1)}.SS"
+    elif idx := re.fullmatch(r"(?:IDX|BEI):([A-Z]{4})", s):
+        canonical = f"{idx.group(1)}.JK"
     else:
         canonical = s
 
