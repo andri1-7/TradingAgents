@@ -40,6 +40,7 @@ def main(argv=None) -> int:
     parser.add_argument("--ticker", required=True, help="BBCA, BBCA.JK, IDX:BBCA, BEI:BBCA")
     parser.add_argument("--date", required=True, help="Tanggal analisis YYYY-MM-DD (sesi Jakarta)")
     parser.add_argument("--check-data", action="store_true", help="Periksa OHLCV tanpa LLM")
+    parser.add_argument("--jev-decision", action="store_true", help="Keputusan final terstruktur Jev setelah analisis utama")
     args = parser.parse_args(argv)
     ticker = normalize_symbol(args.ticker)
     if re.fullmatch(r"[A-Z]{4}", ticker):
@@ -54,6 +55,11 @@ def main(argv=None) -> int:
         parser.error("Tanggal harus YYYY-MM-DD")
     if parsed_date > datetime.now(ZoneInfo("Asia/Jakarta")).date():
         parser.error("Tanggal tidak boleh di masa depan")
+    import os
+
+    if args.jev_decision and not args.check_data and not os.environ.get("TYPESAFE_API_KEY", "").strip():
+        print("JEV_UNAVAILABLE: TYPESAFE_API_KEY is required for --jev-decision", file=sys.stderr)
+        return 1
     config = build_indonesia_config()
     with run_config(config):
         if not args.check_data:
@@ -63,8 +69,36 @@ def main(argv=None) -> int:
                 selected_analysts=("market", "news", "fundamentals"), config=config,
             )
             state, rating = graph.propagate(ticker, args.date)
+            print("Original model report:")
             print(state["final_trade_decision"])
-            print(f"Rating: {rating}")
+            print(f"Original model rating: {rating}")
+            if args.jev_decision:
+                from pathlib import Path
+                from uuid import uuid4
+
+                from tradingagents.agents.jev_decision import decide
+                from tradingagents.agents.post_screen import TypeSafeError
+
+                try:
+                    result = decide(ticker, args.date, state)
+                    result.update(
+                        original_model_rating=rating,
+                        original_model_report=state["final_trade_decision"],
+                    )
+                    directory = Path(config["results_dir"]) / ticker / args.date
+                    directory.mkdir(parents=True, exist_ok=True)
+                    artifact = directory / f"jev_decision_{uuid4().hex}.json"
+                    temporary = artifact.with_suffix(".json.tmp")
+                    try:
+                        temporary.write_text(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+                        os.replace(temporary, artifact)
+                    finally:
+                        temporary.unlink(missing_ok=True)
+                except (TypeSafeError, OSError, ValueError, TypeError):
+                    print("JEV_UNAVAILABLE: decision or artifact unavailable; no Jev action issued", file=sys.stderr)
+                    return 1
+                print(f"Jev final decision: {result['decision']['choice']}")
+                print(f"Jev artifact: {artifact}")
             return 0
         result = {
             "ticker": ticker, "as_of": args.date, "currency": "IDR",

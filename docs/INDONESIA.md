@@ -62,6 +62,54 @@ graph = TradingAgentsGraph(selected_analysts=("market", "news", "fundamentals"),
 state, rating = graph.propagate("BBCA.JK", "2026-10-26")
 ```
 
+## Keputusan final TypeSafe Jev (opsional)
+
+```sh
+# Set TYPESAFE_API_KEY securely in the environment; never put a key in a report.
+.venv/bin/python -m tradingagents.indonesia --ticker BBCA --date 2026-10-26 --jev-decision
+```
+
+`--jev-decision` menjalankan analisis utama dahulu, lalu meminta keputusan final
+terstruktur `BUY` / `HOLD` / `SELL` melalui client `system_one` yang sudah ada.
+Ini bukan sekadar screening sosial dan **bukan pengganti chat model** untuk graph.
+Tanpa flag ini tidak ada permintaan Jev final; `--check-data` selalu mengabaikan
+flag ini, tanpa Jev maupun graph LLM. API key kosong/hanya spasi ditolak sebelum
+membuat graph berbayar. Key tidak kosong tetap dapat ditolak server; izin/billing
+harus diverifikasi terpisah sebelum menjalankan analisis berbayar.
+
+Default endpoint: `https://api.typesafe.ai/v1/systemone`, model `jev-latest`.
+Client bersama menghormati `TYPESAFE_BASE_URL` dan `TYPESAFE_DEFAULT_MODEL`.
+Ia mengirim pertanyaan `choice` dengan criteria mapping tiga label tersebut,
+memakai timeout dan retry terbatas upstream. Hanya ticker/as-of yang persis
+setelah normalisasi CLI dan whitelist string laporan dikirim: `market_report`,
+`news_report`, `fundamentals_report`, `sentiment_report`, `investment_plan`,
+`trader_investment_plan`, `final_trade_decision`. Setiap laporan dibatasi 16.000
+karakter; laporan akhir wajib tersedia. Messages, credentials, object arbitrer,
+dan state graph lain tidak dikirim. Hindari memasukkan rahasia ke teks laporan.
+
+Hasil harus memiliki choice tepat salah satu dari tiga label, probabilities dengan
+key tepat `BUY`, `HOLD`, `SELL`, angka finite 0..1 dan jumlah 1 (toleransi absolut
+1e-6), serta confidence finite 0..1. Boolean/string numerik ditolak. Confidence dan
+probabilities ini adalah penilaian klasifikasi model, **bukan peluang profit**,
+bukan bukti kalibrasi pada IDX, dan bukan hasil backtest. `SELL` hanya berarti
+mengurangi/keluar dari posisi long yang sudah ada, bukan membuka short. Tidak ada
+harga, return, target eksekusi, atau hasil investasi yang dibuat oleh fitur ini.
+
+Output melabeli `Original model report/rating` terpisah dari `Jev final decision`.
+Artifact baru ditulis di
+`<results_dir>/<ticker>/<as_of>/jev_decision_<unique-id>.json` dengan hasil Jev,
+ticker/as-of, original model report/rating dan `requested_model`. Client bersama
+hanya mengembalikan answers; `resolved_model` disimpan `null`, tidak mengklaim
+alias seperti `jev-latest` sebagai versi model server yang persis. Artifact ini
+**tidak** menimpa keputusan graph, memory/reflection atau hasil backtest upstream;
+semua itu tetap menggunakan model utama. Tidak ada order yang dikirim.
+
+Kegagalan API, respons tidak valid, atau penulisan artifact menghasilkan
+`JEV_UNAVAILABLE` dan exit code 1 tanpa menerbitkan keputusan Jev (tidak ada
+fallback HOLD rekaan). Laporan utama yang sudah selesai tetap dilabeli sebagai
+hasil model utama. Unit/integration test memakai graph/client/HTTP boundary
+mocked, tidak memanggil model berbayar dan tidak mengklaim validasi API live.
+
 ## Bentuk ticker dan contoh
 
 Normalizer umum menerima `IDX:BBCA` dan `BEI:BBCA` menjadi `BBCA.JK`.
