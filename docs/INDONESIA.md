@@ -110,6 +110,28 @@ fallback HOLD rekaan). Laporan utama yang sudah selesai tetap dilabeli sebagai
 hasil model utama. Unit/integration test memakai graph/client/HTTP boundary
 mocked, tidak memanggil model berbayar dan tidak mengklaim validasi API live.
 
+## Registry emiten BEI
+
+Registry bawaan memuat **962 kode unik** dari snapshot endpoint saham BEI, termasuk papan pemantauan khusus. Semua baris snapshot didaftarkan, bukan hanya lima contoh. Ini **belum terbukti seluruh emiten terkini**: ANTARA mengutip 963 perusahaan per 23 Oktober 2026, sedangkan sumber yang dapat diambil mengembalikan 962. Selisih belum terjelaskan; tidak ada kode yang dikarang. Dataset-as-of tidak diketahui; timestamp pengambilan bukan tanggal berlaku data. Lihat [provenance](IDX-DATA-SOURCES.md).
+
+```sh
+python -m tradingagents.idx_registry info
+python -m tradingagents.idx_registry list --format csv
+python -m tradingagents.idx_registry list --format tickers
+python -m tradingagents.idx_registry list --search bank --format json
+```
+
+Daftar tidak dipotong top-N. Registrasi tidak membuktikan masih diperdagangkan, cakupan Yahoo, atau mengaktifkan scanner/analisis berbayar. Format JSON menyertakan metadata jumlah universe dan matched_count setelah filter.
+
+Untuk memperbarui dari file JSON respons IDX lengkap (Code/Name atau KodeEmiten/NamaEmiten):
+
+```sh
+python -m tradingagents.idx_registry import --input /path/idx-response.json --output /path/registry.json --source-url 'https://www.idx.co.id/primary/StockData/GetSecuritiesStock'
+python -m tradingagents.idx_registry --registry /path/registry.json list --format tickers
+```
+
+Import menolak jumlah respons tidak cocok, ticker tidak valid, dan duplikat; penulisan atomik menjaga snapshot lama jika gagal. Tidak melakukan scraping atau pemanggilan API otomatis. Impor file lokal tidak menyertifikasi asal atau kesegaran data, sehingga kelengkapan tetap berlabel unverified.
+
 ## Bentuk ticker dan contoh
 
 Normalizer umum menerima `IDX:BBCA` dan `BEI:BBCA` menjadi `BBCA.JK`.

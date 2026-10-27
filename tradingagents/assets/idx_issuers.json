@@ -1,0 +1,4827 @@
+{
+  "source_url": "https://www.idx.co.id/primary/StockData/GetSecuritiesStock?start=0&length=10",
+  "retrieved_at": "2026-10-27T09:32:55.464938+00:00",
+  "source_as_of": null,
+  "coverage_status": "official_source_snapshot_current_completeness_unverified",
+  "declared_count": 962,
+  "source_sha256": "bc6dfadb22ac40bfc609f2035676eb1e153bae4520e50cc2ec3ba01d5e853c77",
+  "notes": [
+    "Official-source extraction returned962rows matching recordsTotal and unique codes.",
+    "ANTARA quotes963listed companies as of2026-10-23; discrepancy unresolved, no missing issuer invented.",
+    "Source does not provide dataset as-of or extraction cache age; retrieval time is not data vintage.",
+    "Source names preserved including truncation. Listing status and Yahoo availability not verified individually.",
+    "No price requests, paid analyses, or scheduled monitoring activated by registration."
+  ],
+  "issuers": [
+    {
+      "symbol": "AADI",
+      "name": "Adaro Andalan Indonesia Tbk.",
+      "yahoo_symbol": "AADI.JK"
+    },
+    {
+      "symbol": "AALI",
+      "name": "Astra Agro Lestari Tbk.",
+      "yahoo_symbol": "AALI.JK"
+    },
+    {
+      "symbol": "ABBA",
+      "name": "Mahaka Media Tbk.",
+      "yahoo_symbol": "ABBA.JK"
+    },
+    {
+      "symbol": "ABDA",
+      "name": "Asuransi Bina Dana Arta Tbk.",
+      "yahoo_symbol": "ABDA.JK"
+    },
+    {
+      "symbol": "ABMM",
+      "name": "ABM Investama Tbk.",
+      "yahoo_symbol": "ABMM.JK"
+    },
+    {
+      "symbol": "ACES",
+      "name": "Aspirasi Hidup Indonesia Tbk.",
+      "yahoo_symbol": "ACES.JK"
+    },
+    {
+      "symbol": "ACRO",
+      "name": "Samcro Hyosung Adilestari Tbk.",
+      "yahoo_symbol": "ACRO.JK"
+    },
+    {
+      "symbol": "ACST",
+      "name": "Acset Indonusa Tbk.",
+      "yahoo_symbol": "ACST.JK"
+    },
+    {
+      "symbol": "ADCP",
+      "name": "Adhi Commuter Properti Tbk.",
+      "yahoo_symbol": "ADCP.JK"
+    },
+    {
+      "symbol": "ADES",
+      "name": "Akasha Wira International Tbk.",
+      "yahoo_symbol": "ADES.JK"
+    },
+    {
+      "symbol": "ADHI",
+      "name": "Adhi Karya (Persero) Tbk.",
+      "yahoo_symbol": "ADHI.JK"
+    },
+    {
+      "symbol": "ADMF",
+      "name": "Adira Dinamika Multi Finance T",
+      "yahoo_symbol": "ADMF.JK"
+    },
+    {
+      "symbol": "ADMG",
+      "name": "Polychem Indonesia Tbk",
+      "yahoo_symbol": "ADMG.JK"
+    },
+    {
+      "symbol": "ADMR",
+      "name": "Alamtri Minerals Indonesia Tbk",
+      "yahoo_symbol": "ADMR.JK"
+    },
+    {
+      "symbol": "ADRO",
+      "name": "Alamtri Resources Indonesia Tb",
+      "yahoo_symbol": "ADRO.JK"
+    },
+    {
+      "symbol": "AEGS",
+      "name": "Anugerah Spareparts Sejahtera ",
+      "yahoo_symbol": "AEGS.JK"
+    },
+    {
+      "symbol": "AGAR",
+      "name": "Asia Sejahtera Mina Tbk.",
+      "yahoo_symbol": "AGAR.JK"
+    },
+    {
+      "symbol": "AGII",
+      "name": "Samator Indo Gas Tbk.",
+      "yahoo_symbol": "AGII.JK"
+    },
+    {
+      "symbol": "AGRO",
+      "name": "Bank Raya Indonesia Tbk.",
+      "yahoo_symbol": "AGRO.JK"
+    },
+    {
+      "symbol": "AGRS",
+      "name": "Bank IBK Indonesia Tbk.",
+      "yahoo_symbol": "AGRS.JK"
+    },
+    {
+      "symbol": "AHAP",
+      "name": "Asuransi Harta Aman Pratama Tb",
+      "yahoo_symbol": "AHAP.JK"
+    },
+    {
+      "symbol": "AIMS",
+      "name": "Artha Mahiya Investama Tbk.",
+      "yahoo_symbol": "AIMS.JK"
+    },
+    {
+      "symbol": "AISA",
+      "name": "FKS Food Sejahtera Tbk.",
+      "yahoo_symbol": "AISA.JK"
+    },
+    {
+      "symbol": "AKKU",
+      "name": "Anugerah Kagum Karya Utama Tbk",
+      "yahoo_symbol": "AKKU.JK"
+    },
+    {
+      "symbol": "AKPI",
+      "name": "Argha Karya Prima Industry Tbk",
+      "yahoo_symbol": "AKPI.JK"
+    },
+    {
+      "symbol": "AKRA",
+      "name": "AKR Corporindo Tbk.",
+      "yahoo_symbol": "AKRA.JK"
+    },
+    {
+      "symbol": "AKSI",
+      "name": "Mineral Sumberdaya Mandiri Tbk",
+      "yahoo_symbol": "AKSI.JK"
+    },
+    {
+      "symbol": "ALDO",
+      "name": "Alkindo Naratama Tbk.",
+      "yahoo_symbol": "ALDO.JK"
+    },
+    {
+      "symbol": "ALII",
+      "name": "Ancara Logistics Indonesia Tbk",
+      "yahoo_symbol": "ALII.JK"
+    },
+    {
+      "symbol": "ALKA",
+      "name": "Alakasa Industrindo Tbk",
+      "yahoo_symbol": "ALKA.JK"
+    },
+    {
+      "symbol": "ALMI",
+      "name": "Alumindo Light Metal Industry ",
+      "yahoo_symbol": "ALMI.JK"
+    },
+    {
+      "symbol": "ALTO",
+      "name": "Tri Banyan Tirta Tbk.",
+      "yahoo_symbol": "ALTO.JK"
+    },
+    {
+      "symbol": "AMAG",
+      "name": "Asuransi Multi Artha Guna Tbk.",
+      "yahoo_symbol": "AMAG.JK"
+    },
+    {
+      "symbol": "AMAN",
+      "name": "Makmur Berkah Amanda Tbk.",
+      "yahoo_symbol": "AMAN.JK"
+    },
+    {
+      "symbol": "AMAR",
+      "name": "Bank Amar Indonesia Tbk.",
+      "yahoo_symbol": "AMAR.JK"
+    },
+    {
+      "symbol": "AMFG",
+      "name": "Asahimas Flat Glass Tbk.",
+      "yahoo_symbol": "AMFG.JK"
+    },
+    {
+      "symbol": "AMIN",
+      "name": "Ateliers Mecaniques D Indonesi",
+      "yahoo_symbol": "AMIN.JK"
+    },
+    {
+      "symbol": "AMMN",
+      "name": "Amman Mineral Internasional Tb",
+      "yahoo_symbol": "AMMN.JK"
+    },
+    {
+      "symbol": "AMMS",
+      "name": "Agung Menjangan Mas Tbk.",
+      "yahoo_symbol": "AMMS.JK"
+    },
+    {
+      "symbol": "AMOR",
+      "name": "Ashmore Asset Management Indon",
+      "yahoo_symbol": "AMOR.JK"
+    },
+    {
+      "symbol": "AMRT",
+      "name": "Sumber Alfaria Trijaya Tbk.",
+      "yahoo_symbol": "AMRT.JK"
+    },
+    {
+      "symbol": "ANDI",
+      "name": "Andira Agro Tbk.",
+      "yahoo_symbol": "ANDI.JK"
+    },
+    {
+      "symbol": "ANJT",
+      "name": "Austindo Nusantara Jaya Tbk.",
+      "yahoo_symbol": "ANJT.JK"
+    },
+    {
+      "symbol": "ANTM",
+      "name": "ANTAM (Persero) Tbk.",
+      "yahoo_symbol": "ANTM.JK"
+    },
+    {
+      "symbol": "APEX",
+      "name": "Apexindo Pratama Duta Tbk.",
+      "yahoo_symbol": "APEX.JK"
+    },
+    {
+      "symbol": "APIC",
+      "name": "Pacific Strategic Financial Tb",
+      "yahoo_symbol": "APIC.JK"
+    },
+    {
+      "symbol": "APII",
+      "name": "Arita Prima Indonesia Tbk.",
+      "yahoo_symbol": "APII.JK"
+    },
+    {
+      "symbol": "APLI",
+      "name": "Asiaplast Industries Tbk.",
+      "yahoo_symbol": "APLI.JK"
+    },
+    {
+      "symbol": "APLN",
+      "name": "Agung Podomoro Land Tbk.",
+      "yahoo_symbol": "APLN.JK"
+    },
+    {
+      "symbol": "ARCI",
+      "name": "Archi Indonesia Tbk.",
+      "yahoo_symbol": "ARCI.JK"
+    },
+    {
+      "symbol": "AREA",
+      "name": "Dunia Virtual Online Tbk.",
+      "yahoo_symbol": "AREA.JK"
+    },
+    {
+      "symbol": "ARGO",
+      "name": "Argo Pantes Tbk",
+      "yahoo_symbol": "ARGO.JK"
+    },
+    {
+      "symbol": "ARII",
+      "name": "Atlas Resources Tbk.",
+      "yahoo_symbol": "ARII.JK"
+    },
+    {
+      "symbol": "ARKA",
+      "name": "Arkha Jayanti Persada Tbk.",
+      "yahoo_symbol": "ARKA.JK"
+    },
+    {
+      "symbol": "ARKO",
+      "name": "Arkora Hydro Tbk.",
+      "yahoo_symbol": "ARKO.JK"
+    },
+    {
+      "symbol": "ARMY",
+      "name": "Armidian Karyatama Tbk.",
+      "yahoo_symbol": "ARMY.JK"
+    },
+    {
+      "symbol": "ARNA",
+      "name": "Arwana Citramulia Tbk.",
+      "yahoo_symbol": "ARNA.JK"
+    },
+    {
+      "symbol": "ARTA",
+      "name": "Arthavest Tbk",
+      "yahoo_symbol": "ARTA.JK"
+    },
+    {
+      "symbol": "ARTI",
+      "name": "Ratu Prabu Energi Tbk",
+      "yahoo_symbol": "ARTI.JK"
+    },
+    {
+      "symbol": "ARTO",
+      "name": "Bank Jago Tbk.",
+      "yahoo_symbol": "ARTO.JK"
+    },
+    {
+      "symbol": "ASBI",
+      "name": "Asuransi Bintang Tbk.",
+      "yahoo_symbol": "ASBI.JK"
+    },
+    {
+      "symbol": "ASDM",
+      "name": "Asuransi Dayin Mitra Tbk.",
+      "yahoo_symbol": "ASDM.JK"
+    },
+    {
+      "symbol": "ASGR",
+      "name": "Astra Graphia Tbk.",
+      "yahoo_symbol": "ASGR.JK"
+    },
+    {
+      "symbol": "ASHA",
+      "name": "Cilacap Samudera Fishing Indus",
+      "yahoo_symbol": "ASHA.JK"
+    },
+    {
+      "symbol": "ASII",
+      "name": "Astra International Tbk.",
+      "yahoo_symbol": "ASII.JK"
+    },
+    {
+      "symbol": "ASJT",
+      "name": "Asuransi Jasa Tania Tbk.",
+      "yahoo_symbol": "ASJT.JK"
+    },
+    {
+      "symbol": "ASLC",
+      "name": "Autopedia Sukses Lestari Tbk.",
+      "yahoo_symbol": "ASLC.JK"
+    },
+    {
+      "symbol": "ASLI",
+      "name": "Asri Karya Lestari Tbk.",
+      "yahoo_symbol": "ASLI.JK"
+    },
+    {
+      "symbol": "ASMI",
+      "name": "Asuransi Maximus Graha Persada",
+      "yahoo_symbol": "ASMI.JK"
+    },
+    {
+      "symbol": "ASPI",
+      "name": "Andalan Sakti Primaindo Tbk.",
+      "yahoo_symbol": "ASPI.JK"
+    },
+    {
+      "symbol": "ASPR",
+      "name": "Asia Pramulia Tbk.",
+      "yahoo_symbol": "ASPR.JK"
+    },
+    {
+      "symbol": "ASRI",
+      "name": "Alam Sutera Realty Tbk.",
+      "yahoo_symbol": "ASRI.JK"
+    },
+    {
+      "symbol": "ASRM",
+      "name": "Asuransi Ramayana Tbk.",
+      "yahoo_symbol": "ASRM.JK"
+    },
+    {
+      "symbol": "ASSA",
+      "name": "Adi Sarana Armada Tbk.",
+      "yahoo_symbol": "ASSA.JK"
+    },
+    {
+      "symbol": "ATAP",
+      "name": "Trimitra Prawara Goldland Tbk.",
+      "yahoo_symbol": "ATAP.JK"
+    },
+    {
+      "symbol": "ATIC",
+      "name": "Anabatic Technologies Tbk.",
+      "yahoo_symbol": "ATIC.JK"
+    },
+    {
+      "symbol": "ATLA",
+      "name": "Atlantis Subsea Indonesia Tbk.",
+      "yahoo_symbol": "ATLA.JK"
+    },
+    {
+      "symbol": "AUTO",
+      "name": "Astra Otoparts Tbk.",
+      "yahoo_symbol": "AUTO.JK"
+    },
+    {
+      "symbol": "AVIA",
+      "name": "Avia Avian Tbk.",
+      "yahoo_symbol": "AVIA.JK"
+    },
+    {
+      "symbol": "AWAN",
+      "name": "Era Digital Media Tbk.",
+      "yahoo_symbol": "AWAN.JK"
+    },
+    {
+      "symbol": "AXIO",
+      "name": "Tera Data Indonusa Tbk.",
+      "yahoo_symbol": "AXIO.JK"
+    },
+    {
+      "symbol": "AYAM",
+      "name": "Janu Putra Sejahtera Tbk.",
+      "yahoo_symbol": "AYAM.JK"
+    },
+    {
+      "symbol": "AYLS",
+      "name": "Arkayana Lestari Grup Tbk.",
+      "yahoo_symbol": "AYLS.JK"
+    },
+    {
+      "symbol": "BABP",
+      "name": "Bank MNC Internasional Tbk.",
+      "yahoo_symbol": "BABP.JK"
+    },
+    {
+      "symbol": "BABY",
+      "name": "Multitrend Indo Tbk.",
+      "yahoo_symbol": "BABY.JK"
+    },
+    {
+      "symbol": "BACA",
+      "name": "Bank Capital Indonesia Tbk.",
+      "yahoo_symbol": "BACA.JK"
+    },
+    {
+      "symbol": "BACH",
+      "name": "Bach Multi Global Tbk.",
+      "yahoo_symbol": "BACH.JK"
+    },
+    {
+      "symbol": "BAIK",
+      "name": "Bersama Mencapai Puncak Tbk.",
+      "yahoo_symbol": "BAIK.JK"
+    },
+    {
+      "symbol": "BAJA",
+      "name": "Saranacentral Bajatama Tbk.",
+      "yahoo_symbol": "BAJA.JK"
+    },
+    {
+      "symbol": "BALI",
+      "name": "Bali Towerindo Sentra Tbk.",
+      "yahoo_symbol": "BALI.JK"
+    },
+    {
+      "symbol": "BANK",
+      "name": "Bank Aladin Syariah Tbk.",
+      "yahoo_symbol": "BANK.JK"
+    },
+    {
+      "symbol": "BAPA",
+      "name": "Bekasi Asri Pemula Tbk.",
+      "yahoo_symbol": "BAPA.JK"
+    },
+    {
+      "symbol": "BAPI",
+      "name": "Bhakti Agung Propertindo Tbk.",
+      "yahoo_symbol": "BAPI.JK"
+    },
+    {
+      "symbol": "BATA",
+      "name": "Sepatu Bata Tbk.",
+      "yahoo_symbol": "BATA.JK"
+    },
+    {
+      "symbol": "BATR",
+      "name": "Benteng Api Technic Tbk.",
+      "yahoo_symbol": "BATR.JK"
+    },
+    {
+      "symbol": "BAUT",
+      "name": "Mitra Angkasa Sejahtera Tbk.",
+      "yahoo_symbol": "BAUT.JK"
+    },
+    {
+      "symbol": "BAYU",
+      "name": "Bayu Buana Tbk",
+      "yahoo_symbol": "BAYU.JK"
+    },
+    {
+      "symbol": "BBCA",
+      "name": "Bank Central Asia Tbk.",
+      "yahoo_symbol": "BBCA.JK"
+    },
+    {
+      "symbol": "BBHI",
+      "name": "Allo Bank Indonesia Tbk.",
+      "yahoo_symbol": "BBHI.JK"
+    },
+    {
+      "symbol": "BBKP",
+      "name": "Bank KB Indonesia Tbk.",
+      "yahoo_symbol": "BBKP.JK"
+    },
+    {
+      "symbol": "BBLD",
+      "name": "Buana Finance Tbk.",
+      "yahoo_symbol": "BBLD.JK"
+    },
+    {
+      "symbol": "BBMD",
+      "name": "Bank Mestika Dharma Tbk.",
+      "yahoo_symbol": "BBMD.JK"
+    },
+    {
+      "symbol": "BBNI",
+      "name": "Bank Negara Indonesia (Persero",
+      "yahoo_symbol": "BBNI.JK"
+    },
+    {
+      "symbol": "BBRI",
+      "name": "Bank Rakyat Indonesia (Persero",
+      "yahoo_symbol": "BBRI.JK"
+    },
+    {
+      "symbol": "BBRM",
+      "name": "Pelayaran Nasional Bina Buana ",
+      "yahoo_symbol": "BBRM.JK"
+    },
+    {
+      "symbol": "BBSI",
+      "name": "Krom Bank Indonesia Tbk.",
+      "yahoo_symbol": "BBSI.JK"
+    },
+    {
+      "symbol": "BBSS",
+      "name": "Bumi Benowo Sukses Sejahtera T",
+      "yahoo_symbol": "BBSS.JK"
+    },
+    {
+      "symbol": "BBTN",
+      "name": "Bank Tabungan Negara (Persero)",
+      "yahoo_symbol": "BBTN.JK"
+    },
+    {
+      "symbol": "BBYB",
+      "name": "Bank Neo Commerce Tbk.",
+      "yahoo_symbol": "BBYB.JK"
+    },
+    {
+      "symbol": "BCAP",
+      "name": "MNC Kapital Indonesia Tbk.",
+      "yahoo_symbol": "BCAP.JK"
+    },
+    {
+      "symbol": "BCIC",
+      "name": "Bank JTrust Indonesia Tbk.",
+      "yahoo_symbol": "BCIC.JK"
+    },
+    {
+      "symbol": "BCIP",
+      "name": "Bumi Citra Permai Tbk.",
+      "yahoo_symbol": "BCIP.JK"
+    },
+    {
+      "symbol": "BDKR",
+      "name": "Berdikari Pondasi Perkasa Tbk.",
+      "yahoo_symbol": "BDKR.JK"
+    },
+    {
+      "symbol": "BDMN",
+      "name": "Bank Danamon Indonesia Tbk.",
+      "yahoo_symbol": "BDMN.JK"
+    },
+    {
+      "symbol": "BEBS",
+      "name": "Berkah Beton Sadaya Tbk.",
+      "yahoo_symbol": "BEBS.JK"
+    },
+    {
+      "symbol": "BEEF",
+      "name": "Estika Tata Tiara Tbk.",
+      "yahoo_symbol": "BEEF.JK"
+    },
+    {
+      "symbol": "BEER",
+      "name": "Jobubu Jarum Minahasa Tbk.",
+      "yahoo_symbol": "BEER.JK"
+    },
+    {
+      "symbol": "BEKS",
+      "name": "Bank Pembangunan Daerah Banten",
+      "yahoo_symbol": "BEKS.JK"
+    },
+    {
+      "symbol": "BELI",
+      "name": "Global Digital Niaga Tbk.",
+      "yahoo_symbol": "BELI.JK"
+    },
+    {
+      "symbol": "BELL",
+      "name": "Trisula Textile Industries Tbk",
+      "yahoo_symbol": "BELL.JK"
+    },
+    {
+      "symbol": "BESS",
+      "name": "Batulicin Nusantara Maritim Tb",
+      "yahoo_symbol": "BESS.JK"
+    },
+    {
+      "symbol": "BEST",
+      "name": "Bekasi Fajar Industrial Estate",
+      "yahoo_symbol": "BEST.JK"
+    },
+    {
+      "symbol": "BFIN",
+      "name": "BFI Finance  Indonesia Tbk.",
+      "yahoo_symbol": "BFIN.JK"
+    },
+    {
+      "symbol": "BGTG",
+      "name": "Bank Ganesha Tbk.",
+      "yahoo_symbol": "BGTG.JK"
+    },
+    {
+      "symbol": "BHAT",
+      "name": "Bhakti Multi Artha Tbk.",
+      "yahoo_symbol": "BHAT.JK"
+    },
+    {
+      "symbol": "BHIT",
+      "name": "MNC Asia Holding Tbk.",
+      "yahoo_symbol": "BHIT.JK"
+    },
+    {
+      "symbol": "BIKA",
+      "name": "Binakarya Jaya Abadi Tbk.",
+      "yahoo_symbol": "BIKA.JK"
+    },
+    {
+      "symbol": "BIKE",
+      "name": "Bhineka Inovasi Ketahanan Ener",
+      "yahoo_symbol": "BIKE.JK"
+    },
+    {
+      "symbol": "BIMA",
+      "name": "Primarindo Asia Infrastructure",
+      "yahoo_symbol": "BIMA.JK"
+    },
+    {
+      "symbol": "BINA",
+      "name": "Bank Ina Perdana Tbk.",
+      "yahoo_symbol": "BINA.JK"
+    },
+    {
+      "symbol": "BINO",
+      "name": "Perma Plasindo Tbk.",
+      "yahoo_symbol": "BINO.JK"
+    },
+    {
+      "symbol": "BIPI",
+      "name": "Astrindo Nusantara Infrastrukt",
+      "yahoo_symbol": "BIPI.JK"
+    },
+    {
+      "symbol": "BIPP",
+      "name": "Bhuwanatala Indah Permai Tbk.",
+      "yahoo_symbol": "BIPP.JK"
+    },
+    {
+      "symbol": "BIRD",
+      "name": "Blue Bird Tbk.",
+      "yahoo_symbol": "BIRD.JK"
+    },
+    {
+      "symbol": "BISI",
+      "name": "BISI International Tbk.",
+      "yahoo_symbol": "BISI.JK"
+    },
+    {
+      "symbol": "BJBR",
+      "name": "Bank Pembangunan Daerah Jawa B",
+      "yahoo_symbol": "BJBR.JK"
+    },
+    {
+      "symbol": "BJTM",
+      "name": "Bank Pembangunan Daerah Jawa T",
+      "yahoo_symbol": "BJTM.JK"
+    },
+    {
+      "symbol": "BKDP",
+      "name": "Bukit Darmo Property Tbk",
+      "yahoo_symbol": "BKDP.JK"
+    },
+    {
+      "symbol": "BKSL",
+      "name": "Sentul City Tbk.",
+      "yahoo_symbol": "BKSL.JK"
+    },
+    {
+      "symbol": "BKSW",
+      "name": "Bank QNB Indonesia Tbk.",
+      "yahoo_symbol": "BKSW.JK"
+    },
+    {
+      "symbol": "BLES",
+      "name": "Superior Prima Sukses Tbk.",
+      "yahoo_symbol": "BLES.JK"
+    },
+    {
+      "symbol": "BLOG",
+      "name": "Trimitra Trans Persada Tbk.",
+      "yahoo_symbol": "BLOG.JK"
+    },
+    {
+      "symbol": "BLTA",
+      "name": "Berlian Laju Tanker Tbk",
+      "yahoo_symbol": "BLTA.JK"
+    },
+    {
+      "symbol": "BLTZ",
+      "name": "Graha Layar Prima Tbk.",
+      "yahoo_symbol": "BLTZ.JK"
+    },
+    {
+      "symbol": "BLUE",
+      "name": "Berkah Prima Perkasa Tbk.",
+      "yahoo_symbol": "BLUE.JK"
+    },
+    {
+      "symbol": "BMAS",
+      "name": "Bank Kasikorn Indonesia Tbk.",
+      "yahoo_symbol": "BMAS.JK"
+    },
+    {
+      "symbol": "BMBL",
+      "name": "Lavender Bina Cendikia Tbk.",
+      "yahoo_symbol": "BMBL.JK"
+    },
+    {
+      "symbol": "BMHS",
+      "name": "Bundamedik Tbk.",
+      "yahoo_symbol": "BMHS.JK"
+    },
+    {
+      "symbol": "BMRI",
+      "name": "Bank Mandiri (Persero) Tbk.",
+      "yahoo_symbol": "BMRI.JK"
+    },
+    {
+      "symbol": "BMSR",
+      "name": "Bintang Mitra Semestaraya Tbk",
+      "yahoo_symbol": "BMSR.JK"
+    },
+    {
+      "symbol": "BMTR",
+      "name": "Global Mediacom Tbk.",
+      "yahoo_symbol": "BMTR.JK"
+    },
+    {
+      "symbol": "BNBA",
+      "name": "Bank Bumi Arta Tbk.",
+      "yahoo_symbol": "BNBA.JK"
+    },
+    {
+      "symbol": "BNBR",
+      "name": "Bakrie & Brothers Tbk",
+      "yahoo_symbol": "BNBR.JK"
+    },
+    {
+      "symbol": "BNGA",
+      "name": "Bank CIMB Niaga Tbk.",
+      "yahoo_symbol": "BNGA.JK"
+    },
+    {
+      "symbol": "BNII",
+      "name": "Bank Maybank Indonesia Tbk.",
+      "yahoo_symbol": "BNII.JK"
+    },
+    {
+      "symbol": "BNLI",
+      "name": "Bank Permata Tbk.",
+      "yahoo_symbol": "BNLI.JK"
+    },
+    {
+      "symbol": "BOAT",
+      "name": "Newport Marine Services Tbk.",
+      "yahoo_symbol": "BOAT.JK"
+    },
+    {
+      "symbol": "BOBA",
+      "name": "Formosa Ingredient Factory Tbk",
+      "yahoo_symbol": "BOBA.JK"
+    },
+    {
+      "symbol": "BOGA",
+      "name": "Apollo Global Interactive Tbk.",
+      "yahoo_symbol": "BOGA.JK"
+    },
+    {
+      "symbol": "BOLA",
+      "name": "Bali Bintang Sejahtera Tbk.",
+      "yahoo_symbol": "BOLA.JK"
+    },
+    {
+      "symbol": "BOLT",
+      "name": "Garuda Metalindo Tbk.",
+      "yahoo_symbol": "BOLT.JK"
+    },
+    {
+      "symbol": "BOSS",
+      "name": "Borneo Olah Sarana Sukses Tbk.",
+      "yahoo_symbol": "BOSS.JK"
+    },
+    {
+      "symbol": "BPFI",
+      "name": "Woori Finance Indonesia Tbk.",
+      "yahoo_symbol": "BPFI.JK"
+    },
+    {
+      "symbol": "BPII",
+      "name": "Batavia Prosperindo Internasio",
+      "yahoo_symbol": "BPII.JK"
+    },
+    {
+      "symbol": "BPTR",
+      "name": "Batavia Prosperindo Trans Tbk.",
+      "yahoo_symbol": "BPTR.JK"
+    },
+    {
+      "symbol": "BRAM",
+      "name": "Indo Kordsa Tbk.",
+      "yahoo_symbol": "BRAM.JK"
+    },
+    {
+      "symbol": "BREN",
+      "name": "Barito Renewables Energy Tbk.",
+      "yahoo_symbol": "BREN.JK"
+    },
+    {
+      "symbol": "BRIS",
+      "name": "Bank Syariah Indonesia (Perser",
+      "yahoo_symbol": "BRIS.JK"
+    },
+    {
+      "symbol": "BRMS",
+      "name": "Bumi Resources Minerals Tbk.",
+      "yahoo_symbol": "BRMS.JK"
+    },
+    {
+      "symbol": "BRNA",
+      "name": "Berlina Tbk.",
+      "yahoo_symbol": "BRNA.JK"
+    },
+    {
+      "symbol": "BRPT",
+      "name": "Barito Pacific Tbk.",
+      "yahoo_symbol": "BRPT.JK"
+    },
+    {
+      "symbol": "BRRC",
+      "name": "Raja Roti Cemerlang Tbk.",
+      "yahoo_symbol": "BRRC.JK"
+    },
+    {
+      "symbol": "BSBK",
+      "name": "Wulandari Bangun Laksana Tbk.",
+      "yahoo_symbol": "BSBK.JK"
+    },
+    {
+      "symbol": "BSDE",
+      "name": "Bumi Serpong Damai Tbk.",
+      "yahoo_symbol": "BSDE.JK"
+    },
+    {
+      "symbol": "BSIM",
+      "name": "Bank Sinarmas Tbk.",
+      "yahoo_symbol": "BSIM.JK"
+    },
+    {
+      "symbol": "BSML",
+      "name": "Bintang Samudera Mandiri Lines",
+      "yahoo_symbol": "BSML.JK"
+    },
+    {
+      "symbol": "BSSR",
+      "name": "Baramulti Suksessarana Tbk.",
+      "yahoo_symbol": "BSSR.JK"
+    },
+    {
+      "symbol": "BSWD",
+      "name": "Bank Of India Indonesia Tbk.",
+      "yahoo_symbol": "BSWD.JK"
+    },
+    {
+      "symbol": "BTEK",
+      "name": "Bumi Teknokultura Unggul Tbk",
+      "yahoo_symbol": "BTEK.JK"
+    },
+    {
+      "symbol": "BTEL",
+      "name": "Bakrie Telecom Tbk.",
+      "yahoo_symbol": "BTEL.JK"
+    },
+    {
+      "symbol": "BTON",
+      "name": "Betonjaya Manunggal Tbk.",
+      "yahoo_symbol": "BTON.JK"
+    },
+    {
+      "symbol": "BTPN",
+      "name": "Bank SMBC Indonesia Tbk.",
+      "yahoo_symbol": "BTPN.JK"
+    },
+    {
+      "symbol": "BTPS",
+      "name": "Bank BTPN Syariah Tbk.",
+      "yahoo_symbol": "BTPS.JK"
+    },
+    {
+      "symbol": "BUAH",
+      "name": "Segar Kumala Indonesia Tbk.",
+      "yahoo_symbol": "BUAH.JK"
+    },
+    {
+      "symbol": "BUDI",
+      "name": "Budi Starch & Sweetener Tbk.",
+      "yahoo_symbol": "BUDI.JK"
+    },
+    {
+      "symbol": "BUKA",
+      "name": "Bukalapak.com Tbk.",
+      "yahoo_symbol": "BUKA.JK"
+    },
+    {
+      "symbol": "BUKK",
+      "name": "Bukaka Teknik Utama Tbk.",
+      "yahoo_symbol": "BUKK.JK"
+    },
+    {
+      "symbol": "BULL",
+      "name": "Buana Lintas Lautan Tbk.",
+      "yahoo_symbol": "BULL.JK"
+    },
+    {
+      "symbol": "BUMI",
+      "name": "Bumi Resources Tbk.",
+      "yahoo_symbol": "BUMI.JK"
+    },
+    {
+      "symbol": "BUVA",
+      "name": "Bukit Uluwatu Villa Tbk.",
+      "yahoo_symbol": "BUVA.JK"
+    },
+    {
+      "symbol": "BVIC",
+      "name": "Bank Victoria International Tb",
+      "yahoo_symbol": "BVIC.JK"
+    },
+    {
+      "symbol": "BWPT",
+      "name": "Eagle High Plantations Tbk.",
+      "yahoo_symbol": "BWPT.JK"
+    },
+    {
+      "symbol": "BYAN",
+      "name": "Bayan Resources Tbk.",
+      "yahoo_symbol": "BYAN.JK"
+    },
+    {
+      "symbol": "CAKK",
+      "name": "Cahayaputra Asa Keramik Tbk.",
+      "yahoo_symbol": "CAKK.JK"
+    },
+    {
+      "symbol": "CAMP",
+      "name": "Campina Ice Cream Industry Tbk",
+      "yahoo_symbol": "CAMP.JK"
+    },
+    {
+      "symbol": "CANI",
+      "name": "Capitol Nusantara Indonesia Tb",
+      "yahoo_symbol": "CANI.JK"
+    },
+    {
+      "symbol": "CARE",
+      "name": "Metro Healthcare Indonesia Tbk",
+      "yahoo_symbol": "CARE.JK"
+    },
+    {
+      "symbol": "CARS",
+      "name": "Industri dan Perdagangan Bintr",
+      "yahoo_symbol": "CARS.JK"
+    },
+    {
+      "symbol": "CASA",
+      "name": "Capital Financial Indonesia Tb",
+      "yahoo_symbol": "CASA.JK"
+    },
+    {
+      "symbol": "CASH",
+      "name": "Cashlez Worldwide Indonesia Tb",
+      "yahoo_symbol": "CASH.JK"
+    },
+    {
+      "symbol": "CASS",
+      "name": "Cahaya Aero Services Tbk.",
+      "yahoo_symbol": "CASS.JK"
+    },
+    {
+      "symbol": "CBDK",
+      "name": "Bangun Kosambi Sukses Tbk.",
+      "yahoo_symbol": "CBDK.JK"
+    },
+    {
+      "symbol": "CBMF",
+      "name": "Cahaya Bintang Medan Tbk.",
+      "yahoo_symbol": "CBMF.JK"
+    },
+    {
+      "symbol": "CBPE",
+      "name": "Citra Buana Prasida Tbk.",
+      "yahoo_symbol": "CBPE.JK"
+    },
+    {
+      "symbol": "CBRE",
+      "name": "Cakra Buana Resources Energi T",
+      "yahoo_symbol": "CBRE.JK"
+    },
+    {
+      "symbol": "CBUT",
+      "name": "Citra Borneo Utama Tbk.",
+      "yahoo_symbol": "CBUT.JK"
+    },
+    {
+      "symbol": "CCSI",
+      "name": "Communication Cable Systems In",
+      "yahoo_symbol": "CCSI.JK"
+    },
+    {
+      "symbol": "CDIA",
+      "name": "Chandra Daya Investasi Tbk.",
+      "yahoo_symbol": "CDIA.JK"
+    },
+    {
+      "symbol": "CEKA",
+      "name": "Wilmar Cahaya Indonesia Tbk.",
+      "yahoo_symbol": "CEKA.JK"
+    },
+    {
+      "symbol": "CENT",
+      "name": "Centratama Telekomunikasi Indo",
+      "yahoo_symbol": "CENT.JK"
+    },
+    {
+      "symbol": "CFIN",
+      "name": "Clipan Finance Indonesia Tbk.",
+      "yahoo_symbol": "CFIN.JK"
+    },
+    {
+      "symbol": "CGAS",
+      "name": "Citra Nusantara Gemilang Tbk.",
+      "yahoo_symbol": "CGAS.JK"
+    },
+    {
+      "symbol": "CHEK",
+      "name": "Diastika Biotekindo Tbk.",
+      "yahoo_symbol": "CHEK.JK"
+    },
+    {
+      "symbol": "CHEM",
+      "name": "Chemstar Indonesia Tbk.",
+      "yahoo_symbol": "CHEM.JK"
+    },
+    {
+      "symbol": "CHIP",
+      "name": "Pelita Teknologi Global Tbk.",
+      "yahoo_symbol": "CHIP.JK"
+    },
+    {
+      "symbol": "CINT",
+      "name": "Chitose Internasional Tbk.",
+      "yahoo_symbol": "CINT.JK"
+    },
+    {
+      "symbol": "CITA",
+      "name": "Cita Mineral Investindo Tbk.",
+      "yahoo_symbol": "CITA.JK"
+    },
+    {
+      "symbol": "CITY",
+      "name": "Natura City Developments Tbk.",
+      "yahoo_symbol": "CITY.JK"
+    },
+    {
+      "symbol": "CLAY",
+      "name": "Citra Putra Realty Tbk.",
+      "yahoo_symbol": "CLAY.JK"
+    },
+    {
+      "symbol": "CLEO",
+      "name": "Sariguna Primatirta Tbk.",
+      "yahoo_symbol": "CLEO.JK"
+    },
+    {
+      "symbol": "CLPI",
+      "name": "Colorpak Indonesia Tbk.",
+      "yahoo_symbol": "CLPI.JK"
+    },
+    {
+      "symbol": "CMNP",
+      "name": "Citra Marga Nusaphala Persada ",
+      "yahoo_symbol": "CMNP.JK"
+    },
+    {
+      "symbol": "CMNT",
+      "name": "Cemindo Gemilang Tbk.",
+      "yahoo_symbol": "CMNT.JK"
+    },
+    {
+      "symbol": "CMPP",
+      "name": "AirAsia Indonesia Tbk.",
+      "yahoo_symbol": "CMPP.JK"
+    },
+    {
+      "symbol": "CMRY",
+      "name": "Cisarua Mountain Dairy Tbk.",
+      "yahoo_symbol": "CMRY.JK"
+    },
+    {
+      "symbol": "CNKO",
+      "name": "Exploitasi Energi Indonesia Tb",
+      "yahoo_symbol": "CNKO.JK"
+    },
+    {
+      "symbol": "CNMA",
+      "name": "Nusantara Sejahtera Raya Tbk.",
+      "yahoo_symbol": "CNMA.JK"
+    },
+    {
+      "symbol": "COAL",
+      "name": "Black Diamond Resources Tbk.",
+      "yahoo_symbol": "COAL.JK"
+    },
+    {
+      "symbol": "COCO",
+      "name": "Wahana Interfood Nusantara Tbk",
+      "yahoo_symbol": "COCO.JK"
+    },
+    {
+      "symbol": "COIN",
+      "name": "Indokripto Koin Semesta Tbk.",
+      "yahoo_symbol": "COIN.JK"
+    },
+    {
+      "symbol": "COWL",
+      "name": "Cowell Development Tbk.",
+      "yahoo_symbol": "COWL.JK"
+    },
+    {
+      "symbol": "CPIN",
+      "name": "Charoen Pokphand Indonesia Tbk",
+      "yahoo_symbol": "CPIN.JK"
+    },
+    {
+      "symbol": "CPRI",
+      "name": "Capri Nusa Satu Properti Tbk.",
+      "yahoo_symbol": "CPRI.JK"
+    },
+    {
+      "symbol": "CPRO",
+      "name": "Central Proteina Prima Tbk.",
+      "yahoo_symbol": "CPRO.JK"
+    },
+    {
+      "symbol": "CRAB",
+      "name": "Toba Surimi Industries Tbk.",
+      "yahoo_symbol": "CRAB.JK"
+    },
+    {
+      "symbol": "CRSN",
+      "name": "Carsurin Tbk.",
+      "yahoo_symbol": "CRSN.JK"
+    },
+    {
+      "symbol": "CSAP",
+      "name": "Catur Sentosa Adiprana Tbk.",
+      "yahoo_symbol": "CSAP.JK"
+    },
+    {
+      "symbol": "CSIS",
+      "name": "Cahayasakti Investindo Sukses ",
+      "yahoo_symbol": "CSIS.JK"
+    },
+    {
+      "symbol": "CSMI",
+      "name": "Cipta Selera Murni Tbk.",
+      "yahoo_symbol": "CSMI.JK"
+    },
+    {
+      "symbol": "CSRA",
+      "name": "Cisadane Sawit Raya Tbk.",
+      "yahoo_symbol": "CSRA.JK"
+    },
+    {
+      "symbol": "CTBN",
+      "name": "Citra Tubindo Tbk.",
+      "yahoo_symbol": "CTBN.JK"
+    },
+    {
+      "symbol": "CTRA",
+      "name": "Ciputra Development Tbk.",
+      "yahoo_symbol": "CTRA.JK"
+    },
+    {
+      "symbol": "CTTH",
+      "name": "Citatah Tbk.",
+      "yahoo_symbol": "CTTH.JK"
+    },
+    {
+      "symbol": "CUAN",
+      "name": "Petrindo Jaya Kreasi Tbk.",
+      "yahoo_symbol": "CUAN.JK"
+    },
+    {
+      "symbol": "CYBR",
+      "name": "ITSEC Asia Tbk.",
+      "yahoo_symbol": "CYBR.JK"
+    },
+    {
+      "symbol": "DAAZ",
+      "name": "Daaz Bara Lestari Tbk.",
+      "yahoo_symbol": "DAAZ.JK"
+    },
+    {
+      "symbol": "DADA",
+      "name": "Diamond Citra Propertindo Tbk.",
+      "yahoo_symbol": "DADA.JK"
+    },
+    {
+      "symbol": "DART",
+      "name": "Duta Anggada Realty Tbk.",
+      "yahoo_symbol": "DART.JK"
+    },
+    {
+      "symbol": "DATA",
+      "name": "Remala Abadi Tbk.",
+      "yahoo_symbol": "DATA.JK"
+    },
+    {
+      "symbol": "DAYA",
+      "name": "Duta Intidaya Tbk.",
+      "yahoo_symbol": "DAYA.JK"
+    },
+    {
+      "symbol": "DCII",
+      "name": "DCI Indonesia Tbk.",
+      "yahoo_symbol": "DCII.JK"
+    },
+    {
+      "symbol": "DEAL",
+      "name": "Dewata Freightinternational Tb",
+      "yahoo_symbol": "DEAL.JK"
+    },
+    {
+      "symbol": "DEFI",
+      "name": "Danasupra Erapacific Tbk.",
+      "yahoo_symbol": "DEFI.JK"
+    },
+    {
+      "symbol": "DEPO",
+      "name": "Caturkarda Depo Bangunan Tbk.",
+      "yahoo_symbol": "DEPO.JK"
+    },
+    {
+      "symbol": "DEWA",
+      "name": "Darma Henwa Tbk",
+      "yahoo_symbol": "DEWA.JK"
+    },
+    {
+      "symbol": "DEWI",
+      "name": "Dewi Shri Farmindo Tbk.",
+      "yahoo_symbol": "DEWI.JK"
+    },
+    {
+      "symbol": "DFAM",
+      "name": "Dafam Property Indonesia Tbk.",
+      "yahoo_symbol": "DFAM.JK"
+    },
+    {
+      "symbol": "DGIK",
+      "name": "Nusa Konstruksi Enjiniring Tbk",
+      "yahoo_symbol": "DGIK.JK"
+    },
+    {
+      "symbol": "DGNS",
+      "name": "Diagnos Laboratorium Utama Tbk",
+      "yahoo_symbol": "DGNS.JK"
+    },
+    {
+      "symbol": "DGWG",
+      "name": "Delta Giri Wacana Tbk.",
+      "yahoo_symbol": "DGWG.JK"
+    },
+    {
+      "symbol": "DIGI",
+      "name": "Arkadia Digital Media Tbk.",
+      "yahoo_symbol": "DIGI.JK"
+    },
+    {
+      "symbol": "DILD",
+      "name": "Intiland Development Tbk.",
+      "yahoo_symbol": "DILD.JK"
+    },
+    {
+      "symbol": "DIVA",
+      "name": "Distribusi Voucher Nusantara T",
+      "yahoo_symbol": "DIVA.JK"
+    },
+    {
+      "symbol": "DKFT",
+      "name": "Central Omega Resources Tbk.",
+      "yahoo_symbol": "DKFT.JK"
+    },
+    {
+      "symbol": "DKHH",
+      "name": "Cipta Sarana Medika Tbk.",
+      "yahoo_symbol": "DKHH.JK"
+    },
+    {
+      "symbol": "DLTA",
+      "name": "Delta Djakarta Tbk.",
+      "yahoo_symbol": "DLTA.JK"
+    },
+    {
+      "symbol": "DMAS",
+      "name": "Puradelta Lestari Tbk.",
+      "yahoo_symbol": "DMAS.JK"
+    },
+    {
+      "symbol": "DMMX",
+      "name": "Digital Mediatama Maxima Tbk.",
+      "yahoo_symbol": "DMMX.JK"
+    },
+    {
+      "symbol": "DMND",
+      "name": "Diamond Food Indonesia Tbk.",
+      "yahoo_symbol": "DMND.JK"
+    },
+    {
+      "symbol": "DNAR",
+      "name": "Bank Oke Indonesia Tbk.",
+      "yahoo_symbol": "DNAR.JK"
+    },
+    {
+      "symbol": "DNET",
+      "name": "Indoritel Makmur Internasional",
+      "yahoo_symbol": "DNET.JK"
+    },
+    {
+      "symbol": "DOID",
+      "name": "BUMA Internasional Grup Tbk.",
+      "yahoo_symbol": "DOID.JK"
+    },
+    {
+      "symbol": "DOOH",
+      "name": "Era Media Sejahtera Tbk.",
+      "yahoo_symbol": "DOOH.JK"
+    },
+    {
+      "symbol": "DOSS",
+      "name": "Global Sukses Digital Tbk.",
+      "yahoo_symbol": "DOSS.JK"
+    },
+    {
+      "symbol": "DPNS",
+      "name": "Duta Pertiwi Nusantara Tbk.",
+      "yahoo_symbol": "DPNS.JK"
+    },
+    {
+      "symbol": "DPUM",
+      "name": "Dua Putra Utama Makmur Tbk.",
+      "yahoo_symbol": "DPUM.JK"
+    },
+    {
+      "symbol": "DRMA",
+      "name": "Dharma Polimetal Tbk.",
+      "yahoo_symbol": "DRMA.JK"
+    },
+    {
+      "symbol": "DSFI",
+      "name": "Dharma Samudera Fishing Indust",
+      "yahoo_symbol": "DSFI.JK"
+    },
+    {
+      "symbol": "DSNG",
+      "name": "Dharma Satya Nusantara Tbk.",
+      "yahoo_symbol": "DSNG.JK"
+    },
+    {
+      "symbol": "DSSA",
+      "name": "Dian Swastatika Sentosa Tbk",
+      "yahoo_symbol": "DSSA.JK"
+    },
+    {
+      "symbol": "DUCK",
+      "name": "Jaya Bersama Indo Tbk.",
+      "yahoo_symbol": "DUCK.JK"
+    },
+    {
+      "symbol": "DUTI",
+      "name": "Duta Pertiwi Tbk",
+      "yahoo_symbol": "DUTI.JK"
+    },
+    {
+      "symbol": "DVLA",
+      "name": "Darya-Varia Laboratoria Tbk.",
+      "yahoo_symbol": "DVLA.JK"
+    },
+    {
+      "symbol": "DWGL",
+      "name": "Dwi Guna Laksana Tbk.",
+      "yahoo_symbol": "DWGL.JK"
+    },
+    {
+      "symbol": "DYAN",
+      "name": "Dyandra Media International Tb",
+      "yahoo_symbol": "DYAN.JK"
+    },
+    {
+      "symbol": "EAST",
+      "name": "Eastparc Hotel Tbk.",
+      "yahoo_symbol": "EAST.JK"
+    },
+    {
+      "symbol": "ECII",
+      "name": "Electronic City Indonesia Tbk.",
+      "yahoo_symbol": "ECII.JK"
+    },
+    {
+      "symbol": "EDGE",
+      "name": "Indointernet Tbk.",
+      "yahoo_symbol": "EDGE.JK"
+    },
+    {
+      "symbol": "EKAD",
+      "name": "Ekadharma International Tbk.",
+      "yahoo_symbol": "EKAD.JK"
+    },
+    {
+      "symbol": "ELIT",
+      "name": "Data Sinergitama Jaya Tbk.",
+      "yahoo_symbol": "ELIT.JK"
+    },
+    {
+      "symbol": "ELPI",
+      "name": "Pelayaran Nasional Ekalya Purn",
+      "yahoo_symbol": "ELPI.JK"
+    },
+    {
+      "symbol": "ELSA",
+      "name": "Elnusa Tbk.",
+      "yahoo_symbol": "ELSA.JK"
+    },
+    {
+      "symbol": "ELTY",
+      "name": "Bakrieland Development Tbk.",
+      "yahoo_symbol": "ELTY.JK"
+    },
+    {
+      "symbol": "EMAS",
+      "name": "Merdeka Gold Resources Tbk.",
+      "yahoo_symbol": "EMAS.JK"
+    },
+    {
+      "symbol": "EMDE",
+      "name": "Megapolitan Developments Tbk.",
+      "yahoo_symbol": "EMDE.JK"
+    },
+    {
+      "symbol": "EMMI",
+      "name": "Esa Medika Mandiri Tbk.",
+      "yahoo_symbol": "EMMI.JK"
+    },
+    {
+      "symbol": "EMTK",
+      "name": "Elang Mahkota Teknologi Tbk.",
+      "yahoo_symbol": "EMTK.JK"
+    },
+    {
+      "symbol": "ENAK",
+      "name": "Champ Resto Indonesia Tbk.",
+      "yahoo_symbol": "ENAK.JK"
+    },
+    {
+      "symbol": "ENRG",
+      "name": "Energi Mega Persada Tbk.",
+      "yahoo_symbol": "ENRG.JK"
+    },
+    {
+      "symbol": "ENVY",
+      "name": "Envy Technologies Indonesia Tb",
+      "yahoo_symbol": "ENVY.JK"
+    },
+    {
+      "symbol": "ENZO",
+      "name": "Morenzo Abadi Perkasa Tbk.",
+      "yahoo_symbol": "ENZO.JK"
+    },
+    {
+      "symbol": "EPAC",
+      "name": "Megalestari Epack Sentosaraya ",
+      "yahoo_symbol": "EPAC.JK"
+    },
+    {
+      "symbol": "EPMT",
+      "name": "Enseval Putera Megatrading Tbk",
+      "yahoo_symbol": "EPMT.JK"
+    },
+    {
+      "symbol": "ERAA",
+      "name": "Erajaya Swasembada Tbk.",
+      "yahoo_symbol": "ERAA.JK"
+    },
+    {
+      "symbol": "ERAL",
+      "name": "Sinar Eka Selaras Tbk.",
+      "yahoo_symbol": "ERAL.JK"
+    },
+    {
+      "symbol": "ERTX",
+      "name": "Eratex Djaja Tbk.",
+      "yahoo_symbol": "ERTX.JK"
+    },
+    {
+      "symbol": "ESIP",
+      "name": "Sinergi Inti Plastindo Tbk.",
+      "yahoo_symbol": "ESIP.JK"
+    },
+    {
+      "symbol": "ESSA",
+      "name": "ESSA Industries Indonesia Tbk.",
+      "yahoo_symbol": "ESSA.JK"
+    },
+    {
+      "symbol": "ESTA",
+      "name": "Esta Multi Usaha Tbk.",
+      "yahoo_symbol": "ESTA.JK"
+    },
+    {
+      "symbol": "ESTI",
+      "name": "Ever Shine Tex Tbk.",
+      "yahoo_symbol": "ESTI.JK"
+    },
+    {
+      "symbol": "ETWA",
+      "name": "Eterindo Wahanatama Tbk",
+      "yahoo_symbol": "ETWA.JK"
+    },
+    {
+      "symbol": "EURO",
+      "name": "Estee Gold Feet Tbk.",
+      "yahoo_symbol": "EURO.JK"
+    },
+    {
+      "symbol": "EXCL",
+      "name": "XLSMART Telecom Sejahtera Tbk.",
+      "yahoo_symbol": "EXCL.JK"
+    },
+    {
+      "symbol": "FAPA",
+      "name": "FAP Agri Tbk.",
+      "yahoo_symbol": "FAPA.JK"
+    },
+    {
+      "symbol": "FAST",
+      "name": "Fast Food Indonesia Tbk.",
+      "yahoo_symbol": "FAST.JK"
+    },
+    {
+      "symbol": "FASW",
+      "name": "Fajar Surya Wisesa Tbk.",
+      "yahoo_symbol": "FASW.JK"
+    },
+    {
+      "symbol": "FILM",
+      "name": "MD Entertainment Tbk.",
+      "yahoo_symbol": "FILM.JK"
+    },
+    {
+      "symbol": "FIMP",
+      "name": "Fimperkasa Utama Tbk.",
+      "yahoo_symbol": "FIMP.JK"
+    },
+    {
+      "symbol": "FIRE",
+      "name": "Alfa Energi Investama Tbk.",
+      "yahoo_symbol": "FIRE.JK"
+    },
+    {
+      "symbol": "FISH",
+      "name": "FKS Multi Agro Tbk.",
+      "yahoo_symbol": "FISH.JK"
+    },
+    {
+      "symbol": "FITT",
+      "name": "Fortune Resources Investment T",
+      "yahoo_symbol": "FITT.JK"
+    },
+    {
+      "symbol": "FLMC",
+      "name": "Falmaco Nonwoven Industri Tbk.",
+      "yahoo_symbol": "FLMC.JK"
+    },
+    {
+      "symbol": "FMII",
+      "name": "Fortune Mate Indonesia Tbk",
+      "yahoo_symbol": "FMII.JK"
+    },
+    {
+      "symbol": "FOLK",
+      "name": "Multi Garam Utama Tbk.",
+      "yahoo_symbol": "FOLK.JK"
+    },
+    {
+      "symbol": "FOOD",
+      "name": "Sentra Food Indonesia Tbk.",
+      "yahoo_symbol": "FOOD.JK"
+    },
+    {
+      "symbol": "FORE",
+      "name": "Fore Kopi Indonesia Tbk.",
+      "yahoo_symbol": "FORE.JK"
+    },
+    {
+      "symbol": "FORU",
+      "name": "Fortune Indonesia Tbk",
+      "yahoo_symbol": "FORU.JK"
+    },
+    {
+      "symbol": "FPNI",
+      "name": "Lotte Chemical Titan Tbk.",
+      "yahoo_symbol": "FPNI.JK"
+    },
+    {
+      "symbol": "FUJI",
+      "name": "Fuji Finance Indonesia Tbk.",
+      "yahoo_symbol": "FUJI.JK"
+    },
+    {
+      "symbol": "FUTR",
+      "name": "Futura Energi Global Tbk.",
+      "yahoo_symbol": "FUTR.JK"
+    },
+    {
+      "symbol": "FWCT",
+      "name": "Wijaya Cahaya Timber Tbk.",
+      "yahoo_symbol": "FWCT.JK"
+    },
+    {
+      "symbol": "GAMA",
+      "name": "Aksara Global Development Tbk.",
+      "yahoo_symbol": "GAMA.JK"
+    },
+    {
+      "symbol": "GDST",
+      "name": "Gunawan Dianjaya Steel Tbk.",
+      "yahoo_symbol": "GDST.JK"
+    },
+    {
+      "symbol": "GDYR",
+      "name": "Goodyear Indonesia Tbk.",
+      "yahoo_symbol": "GDYR.JK"
+    },
+    {
+      "symbol": "GEMA",
+      "name": "Gema Grahasarana Tbk.",
+      "yahoo_symbol": "GEMA.JK"
+    },
+    {
+      "symbol": "GEMS",
+      "name": "Golden Energy Mines Tbk.",
+      "yahoo_symbol": "GEMS.JK"
+    },
+    {
+      "symbol": "GGRM",
+      "name": "Gudang Garam Tbk.",
+      "yahoo_symbol": "GGRM.JK"
+    },
+    {
+      "symbol": "GGRP",
+      "name": "Gunung Raja Paksi Tbk.",
+      "yahoo_symbol": "GGRP.JK"
+    },
+    {
+      "symbol": "GHON",
+      "name": "Gihon Telekomunikasi Indonesia",
+      "yahoo_symbol": "GHON.JK"
+    },
+    {
+      "symbol": "GIAA",
+      "name": "Garuda Indonesia (Persero) Tbk",
+      "yahoo_symbol": "GIAA.JK"
+    },
+    {
+      "symbol": "GJTL",
+      "name": "Gajah Tunggal Tbk.",
+      "yahoo_symbol": "GJTL.JK"
+    },
+    {
+      "symbol": "GLOB",
+      "name": "Globe Kita Terang Tbk.",
+      "yahoo_symbol": "GLOB.JK"
+    },
+    {
+      "symbol": "GLVA",
+      "name": "Galva Technologies Tbk.",
+      "yahoo_symbol": "GLVA.JK"
+    },
+    {
+      "symbol": "GMFI",
+      "name": "Garuda Maintenance Facility Ae",
+      "yahoo_symbol": "GMFI.JK"
+    },
+    {
+      "symbol": "GMTD",
+      "name": "Gowa Makassar Tourism Developm",
+      "yahoo_symbol": "GMTD.JK"
+    },
+    {
+      "symbol": "GOLD",
+      "name": "Visi Telekomunikasi Infrastruk",
+      "yahoo_symbol": "GOLD.JK"
+    },
+    {
+      "symbol": "GOLF",
+      "name": "Intra Golflink Resorts Tbk.",
+      "yahoo_symbol": "GOLF.JK"
+    },
+    {
+      "symbol": "GOLL",
+      "name": "Golden Plantation Tbk.",
+      "yahoo_symbol": "GOLL.JK"
+    },
+    {
+      "symbol": "GOOD",
+      "name": "Garudafood Putra Putri Jaya Tb",
+      "yahoo_symbol": "GOOD.JK"
+    },
+    {
+      "symbol": "GOTO",
+      "name": "GoTo Gojek Tokopedia Tbk.",
+      "yahoo_symbol": "GOTO.JK"
+    },
+    {
+      "symbol": "GPRA",
+      "name": "Perdana Gapuraprima Tbk.",
+      "yahoo_symbol": "GPRA.JK"
+    },
+    {
+      "symbol": "GPSO",
+      "name": "Geoprima Solusi Tbk.",
+      "yahoo_symbol": "GPSO.JK"
+    },
+    {
+      "symbol": "GRIA",
+      "name": "Ingria Pratama Capitalindo Tbk",
+      "yahoo_symbol": "GRIA.JK"
+    },
+    {
+      "symbol": "GRPH",
+      "name": "Griptha Putra Persada Tbk.",
+      "yahoo_symbol": "GRPH.JK"
+    },
+    {
+      "symbol": "GRPM",
+      "name": "Graha Prima Mentari Tbk.",
+      "yahoo_symbol": "GRPM.JK"
+    },
+    {
+      "symbol": "GSMF",
+      "name": "Equity Development Investment ",
+      "yahoo_symbol": "GSMF.JK"
+    },
+    {
+      "symbol": "GTBO",
+      "name": "Garda Tujuh Buana Tbk",
+      "yahoo_symbol": "GTBO.JK"
+    },
+    {
+      "symbol": "GTRA",
+      "name": "Grahaprima Suksesmandiri Tbk.",
+      "yahoo_symbol": "GTRA.JK"
+    },
+    {
+      "symbol": "GTSI",
+      "name": "GTS Internasional Tbk.",
+      "yahoo_symbol": "GTSI.JK"
+    },
+    {
+      "symbol": "GULA",
+      "name": "Aman Agrindo Tbk.",
+      "yahoo_symbol": "GULA.JK"
+    },
+    {
+      "symbol": "GUNA",
+      "name": "Gunanusa Eramandiri Tbk.",
+      "yahoo_symbol": "GUNA.JK"
+    },
+    {
+      "symbol": "GWSA",
+      "name": "Greenwood Sejahtera Tbk.",
+      "yahoo_symbol": "GWSA.JK"
+    },
+    {
+      "symbol": "GZCO",
+      "name": "Gozco Plantations Tbk.",
+      "yahoo_symbol": "GZCO.JK"
+    },
+    {
+      "symbol": "HADE",
+      "name": "Himalaya Energi Perkasa Tbk.",
+      "yahoo_symbol": "HADE.JK"
+    },
+    {
+      "symbol": "HAIS",
+      "name": "Hasnur Internasional Shipping ",
+      "yahoo_symbol": "HAIS.JK"
+    },
+    {
+      "symbol": "HAJJ",
+      "name": "Arsy Buana Travelindo Tbk.",
+      "yahoo_symbol": "HAJJ.JK"
+    },
+    {
+      "symbol": "HALO",
+      "name": "Haloni Jane Tbk.",
+      "yahoo_symbol": "HALO.JK"
+    },
+    {
+      "symbol": "HATM",
+      "name": "Habco Trans Maritima Tbk.",
+      "yahoo_symbol": "HATM.JK"
+    },
+    {
+      "symbol": "HBAT",
+      "name": "Minahasa Membangun Hebat Tbk.",
+      "yahoo_symbol": "HBAT.JK"
+    },
+    {
+      "symbol": "HDFA",
+      "name": "Radana Bhaskara Finance Tbk.",
+      "yahoo_symbol": "HDFA.JK"
+    },
+    {
+      "symbol": "HDIT",
+      "name": "Hensel Davest Indonesia Tbk.",
+      "yahoo_symbol": "HDIT.JK"
+    },
+    {
+      "symbol": "HEAL",
+      "name": "Medikaloka Hermina Tbk.",
+      "yahoo_symbol": "HEAL.JK"
+    },
+    {
+      "symbol": "HELI",
+      "name": "Jaya Trishindo Tbk.",
+      "yahoo_symbol": "HELI.JK"
+    },
+    {
+      "symbol": "HERO",
+      "name": "DFI Retail Nusantara Tbk.",
+      "yahoo_symbol": "HERO.JK"
+    },
+    {
+      "symbol": "HEXA",
+      "name": "Hexindo Adiperkasa Tbk.",
+      "yahoo_symbol": "HEXA.JK"
+    },
+    {
+      "symbol": "HGII",
+      "name": "Hero Global Investment Tbk.",
+      "yahoo_symbol": "HGII.JK"
+    },
+    {
+      "symbol": "HILL",
+      "name": "Hillcon Tbk.",
+      "yahoo_symbol": "HILL.JK"
+    },
+    {
+      "symbol": "HITS",
+      "name": "Humpuss Intermoda Transportasi",
+      "yahoo_symbol": "HITS.JK"
+    },
+    {
+      "symbol": "HKMU",
+      "name": "HK Metals Utama Tbk.",
+      "yahoo_symbol": "HKMU.JK"
+    },
+    {
+      "symbol": "HMSP",
+      "name": "H.M. Sampoerna Tbk.",
+      "yahoo_symbol": "HMSP.JK"
+    },
+    {
+      "symbol": "HOKI",
+      "name": "Buyung Poetra Sembada Tbk.",
+      "yahoo_symbol": "HOKI.JK"
+    },
+    {
+      "symbol": "HOME",
+      "name": "Hotel Mandarine Regency Tbk.",
+      "yahoo_symbol": "HOME.JK"
+    },
+    {
+      "symbol": "HOMI",
+      "name": "Grand House Mulia Tbk.",
+      "yahoo_symbol": "HOMI.JK"
+    },
+    {
+      "symbol": "HOPE",
+      "name": "Harapan Duta Pertiwi Tbk.",
+      "yahoo_symbol": "HOPE.JK"
+    },
+    {
+      "symbol": "HOTL",
+      "name": "Saraswati Griya Lestari Tbk.",
+      "yahoo_symbol": "HOTL.JK"
+    },
+    {
+      "symbol": "HRME",
+      "name": "Menteng Heritage Realty Tbk.",
+      "yahoo_symbol": "HRME.JK"
+    },
+    {
+      "symbol": "HRTA",
+      "name": "Hartadinata Abadi Tbk.",
+      "yahoo_symbol": "HRTA.JK"
+    },
+    {
+      "symbol": "HRUM",
+      "name": "Harum Energy Tbk.",
+      "yahoo_symbol": "HRUM.JK"
+    },
+    {
+      "symbol": "HUMI",
+      "name": "Humpuss Maritim Internasional ",
+      "yahoo_symbol": "HUMI.JK"
+    },
+    {
+      "symbol": "HYGN",
+      "name": "Ecocare Indo Pasifik Tbk.",
+      "yahoo_symbol": "HYGN.JK"
+    },
+    {
+      "symbol": "IATA",
+      "name": "Karya Pacific Energy Tbk.",
+      "yahoo_symbol": "IATA.JK"
+    },
+    {
+      "symbol": "IBFN",
+      "name": "Intan Baru Prana Tbk.",
+      "yahoo_symbol": "IBFN.JK"
+    },
+    {
+      "symbol": "IBOS",
+      "name": "Indo Boga Sukses Tbk.",
+      "yahoo_symbol": "IBOS.JK"
+    },
+    {
+      "symbol": "IBST",
+      "name": "Inti Bangun Sejahtera Tbk.",
+      "yahoo_symbol": "IBST.JK"
+    },
+    {
+      "symbol": "ICBP",
+      "name": "Indofood CBP Sukses Makmur Tbk",
+      "yahoo_symbol": "ICBP.JK"
+    },
+    {
+      "symbol": "ICON",
+      "name": "Island Concepts Indonesia Tbk.",
+      "yahoo_symbol": "ICON.JK"
+    },
+    {
+      "symbol": "IDEA",
+      "name": "Idea Indonesia Akademi Tbk.",
+      "yahoo_symbol": "IDEA.JK"
+    },
+    {
+      "symbol": "IDPR",
+      "name": "Indonesia Pondasi Raya Tbk.",
+      "yahoo_symbol": "IDPR.JK"
+    },
+    {
+      "symbol": "IFII",
+      "name": "Indonesia Fibreboard Industry ",
+      "yahoo_symbol": "IFII.JK"
+    },
+    {
+      "symbol": "IFSH",
+      "name": "Ifishdeco Tbk.",
+      "yahoo_symbol": "IFSH.JK"
+    },
+    {
+      "symbol": "IGAR",
+      "name": "Champion Pacific Indonesia Tbk",
+      "yahoo_symbol": "IGAR.JK"
+    },
+    {
+      "symbol": "IIKP",
+      "name": "Inti Agri Resources Tbk",
+      "yahoo_symbol": "IIKP.JK"
+    },
+    {
+      "symbol": "IKAI",
+      "name": "Intikeramik Alamasri Industri ",
+      "yahoo_symbol": "IKAI.JK"
+    },
+    {
+      "symbol": "IKAN",
+      "name": "Era Mandiri Cemerlang Tbk.",
+      "yahoo_symbol": "IKAN.JK"
+    },
+    {
+      "symbol": "IKBI",
+      "name": "Sumi Indo Kabel Tbk.",
+      "yahoo_symbol": "IKBI.JK"
+    },
+    {
+      "symbol": "IKPM",
+      "name": "Ikapharmindo Putramas Tbk.",
+      "yahoo_symbol": "IKPM.JK"
+    },
+    {
+      "symbol": "IMAS",
+      "name": "Indomobil Sukses Internasional",
+      "yahoo_symbol": "IMAS.JK"
+    },
+    {
+      "symbol": "IMJS",
+      "name": "Indomobil Multi Jasa Tbk.",
+      "yahoo_symbol": "IMJS.JK"
+    },
+    {
+      "symbol": "IMPC",
+      "name": "Impack Pratama Industri Tbk.",
+      "yahoo_symbol": "IMPC.JK"
+    },
+    {
+      "symbol": "INAF",
+      "name": "Indofarma Tbk.",
+      "yahoo_symbol": "INAF.JK"
+    },
+    {
+      "symbol": "INAI",
+      "name": "Indal Aluminium Industry Tbk.",
+      "yahoo_symbol": "INAI.JK"
+    },
+    {
+      "symbol": "INCF",
+      "name": "Indo Komoditi Korpora Tbk.",
+      "yahoo_symbol": "INCF.JK"
+    },
+    {
+      "symbol": "INCI",
+      "name": "Intanwijaya Internasional Tbk",
+      "yahoo_symbol": "INCI.JK"
+    },
+    {
+      "symbol": "INCO",
+      "name": "Vale Indonesia Tbk.",
+      "yahoo_symbol": "INCO.JK"
+    },
+    {
+      "symbol": "INDF",
+      "name": "Indofood Sukses Makmur Tbk.",
+      "yahoo_symbol": "INDF.JK"
+    },
+    {
+      "symbol": "INDO",
+      "name": "Royalindo Investa Wijaya Tbk.",
+      "yahoo_symbol": "INDO.JK"
+    },
+    {
+      "symbol": "INDR",
+      "name": "Indo-Rama Synthetics Tbk.",
+      "yahoo_symbol": "INDR.JK"
+    },
+    {
+      "symbol": "INDS",
+      "name": "Indospring Tbk.",
+      "yahoo_symbol": "INDS.JK"
+    },
+    {
+      "symbol": "INDX",
+      "name": "Tanah Laut Tbk",
+      "yahoo_symbol": "INDX.JK"
+    },
+    {
+      "symbol": "INDY",
+      "name": "Indika Energy Tbk.",
+      "yahoo_symbol": "INDY.JK"
+    },
+    {
+      "symbol": "INET",
+      "name": "Sinergi Inti Andalan Prima Tbk",
+      "yahoo_symbol": "INET.JK"
+    },
+    {
+      "symbol": "INKP",
+      "name": "Indah Kiat Pulp & Paper Tbk.",
+      "yahoo_symbol": "INKP.JK"
+    },
+    {
+      "symbol": "INOV",
+      "name": "Inocycle Technology Group Tbk.",
+      "yahoo_symbol": "INOV.JK"
+    },
+    {
+      "symbol": "INPC",
+      "name": "Bank Artha Graha Internasional",
+      "yahoo_symbol": "INPC.JK"
+    },
+    {
+      "symbol": "INPP",
+      "name": "Indonesian Paradise Property T",
+      "yahoo_symbol": "INPP.JK"
+    },
+    {
+      "symbol": "INPS",
+      "name": "Indah Prakasa Sentosa Tbk.",
+      "yahoo_symbol": "INPS.JK"
+    },
+    {
+      "symbol": "INRU",
+      "name": "Toba Pulp Lestari Tbk.",
+      "yahoo_symbol": "INRU.JK"
+    },
+    {
+      "symbol": "INTA",
+      "name": "Intraco Penta Tbk.",
+      "yahoo_symbol": "INTA.JK"
+    },
+    {
+      "symbol": "INTD",
+      "name": "Inter Delta Tbk",
+      "yahoo_symbol": "INTD.JK"
+    },
+    {
+      "symbol": "INTP",
+      "name": "Indocement Tunggal Prakarsa Tb",
+      "yahoo_symbol": "INTP.JK"
+    },
+    {
+      "symbol": "IOTF",
+      "name": "Sumber Sinergi Makmur Tbk.",
+      "yahoo_symbol": "IOTF.JK"
+    },
+    {
+      "symbol": "IPAC",
+      "name": "Era Graharealty Tbk.",
+      "yahoo_symbol": "IPAC.JK"
+    },
+    {
+      "symbol": "IPCC",
+      "name": "Indonesia Kendaraan Terminal T",
+      "yahoo_symbol": "IPCC.JK"
+    },
+    {
+      "symbol": "IPCM",
+      "name": "Jasa Armada Indonesia Tbk.",
+      "yahoo_symbol": "IPCM.JK"
+    },
+    {
+      "symbol": "IPOL",
+      "name": "Indopoly Swakarsa Industry Tbk",
+      "yahoo_symbol": "IPOL.JK"
+    },
+    {
+      "symbol": "IPPE",
+      "name": "Indo Pureco Pratama Tbk.",
+      "yahoo_symbol": "IPPE.JK"
+    },
+    {
+      "symbol": "IPTV",
+      "name": "MNC Vision Networks Tbk.",
+      "yahoo_symbol": "IPTV.JK"
+    },
+    {
+      "symbol": "IRRA",
+      "name": "Itama Ranoraya Tbk.",
+      "yahoo_symbol": "IRRA.JK"
+    },
+    {
+      "symbol": "IRSX",
+      "name": "Folago Global Nusantara Tbk.",
+      "yahoo_symbol": "IRSX.JK"
+    },
+    {
+      "symbol": "ISAP",
+      "name": "Isra Presisi Indonesia Tbk.",
+      "yahoo_symbol": "ISAP.JK"
+    },
+    {
+      "symbol": "ISAT",
+      "name": "Indosat Tbk.",
+      "yahoo_symbol": "ISAT.JK"
+    },
+    {
+      "symbol": "ISEA",
+      "name": "Indo American Seafoods Tbk.",
+      "yahoo_symbol": "ISEA.JK"
+    },
+    {
+      "symbol": "ISSP",
+      "name": "Steel Pipe Industry of Indones",
+      "yahoo_symbol": "ISSP.JK"
+    },
+    {
+      "symbol": "ITIC",
+      "name": "Indonesian Tobacco Tbk.",
+      "yahoo_symbol": "ITIC.JK"
+    },
+    {
+      "symbol": "ITMA",
+      "name": "Sumber Energi Andalan Tbk.",
+      "yahoo_symbol": "ITMA.JK"
+    },
+    {
+      "symbol": "ITMG",
+      "name": "Indo Tambangraya Megah Tbk.",
+      "yahoo_symbol": "ITMG.JK"
+    },
+    {
+      "symbol": "JARR",
+      "name": "Jhonlin Agro Raya Tbk.",
+      "yahoo_symbol": "JARR.JK"
+    },
+    {
+      "symbol": "JAST",
+      "name": "Jasnita Telekomindo Tbk.",
+      "yahoo_symbol": "JAST.JK"
+    },
+    {
+      "symbol": "JATI",
+      "name": "Informasi Teknologi Indonesia ",
+      "yahoo_symbol": "JATI.JK"
+    },
+    {
+      "symbol": "JAWA",
+      "name": "Jaya Agra Wattie Tbk.",
+      "yahoo_symbol": "JAWA.JK"
+    },
+    {
+      "symbol": "JAYA",
+      "name": "Armada Berjaya Trans Tbk.",
+      "yahoo_symbol": "JAYA.JK"
+    },
+    {
+      "symbol": "JECC",
+      "name": "Jembo Cable Company Tbk.",
+      "yahoo_symbol": "JECC.JK"
+    },
+    {
+      "symbol": "JECX",
+      "name": "Nitrasanata Dharma Tbk.",
+      "yahoo_symbol": "JECX.JK"
+    },
+    {
+      "symbol": "JELI",
+      "name": "Niramas Utama Tbk.",
+      "yahoo_symbol": "JELI.JK"
+    },
+    {
+      "symbol": "JGLE",
+      "name": "Graha Andrasentra Propertindo ",
+      "yahoo_symbol": "JGLE.JK"
+    },
+    {
+      "symbol": "JIHD",
+      "name": "Jakarta International Hotels &",
+      "yahoo_symbol": "JIHD.JK"
+    },
+    {
+      "symbol": "JKON",
+      "name": "Jaya Konstruksi Manggala Prata",
+      "yahoo_symbol": "JKON.JK"
+    },
+    {
+      "symbol": "JMAS",
+      "name": "Asuransi Jiwa Syariah Jasa Mit",
+      "yahoo_symbol": "JMAS.JK"
+    },
+    {
+      "symbol": "JPFA",
+      "name": "Japfa Comfeed Indonesia Tbk.",
+      "yahoo_symbol": "JPFA.JK"
+    },
+    {
+      "symbol": "JRPT",
+      "name": "Jaya Real Property Tbk.",
+      "yahoo_symbol": "JRPT.JK"
+    },
+    {
+      "symbol": "JSKY",
+      "name": "Sky Energy Indonesia Tbk.",
+      "yahoo_symbol": "JSKY.JK"
+    },
+    {
+      "symbol": "JSMR",
+      "name": "Jasa Marga (Persero) Tbk.",
+      "yahoo_symbol": "JSMR.JK"
+    },
+    {
+      "symbol": "JSPT",
+      "name": "Jakarta Setiabudi Internasiona",
+      "yahoo_symbol": "JSPT.JK"
+    },
+    {
+      "symbol": "JTPE",
+      "name": "Jasuindo Tiga Perkasa Tbk.",
+      "yahoo_symbol": "JTPE.JK"
+    },
+    {
+      "symbol": "KAEF",
+      "name": "Kimia Farma (Persero) Tbk.",
+      "yahoo_symbol": "KAEF.JK"
+    },
+    {
+      "symbol": "KAQI",
+      "name": "Jantra Grupo Indonesia Tbk.",
+      "yahoo_symbol": "KAQI.JK"
+    },
+    {
+      "symbol": "KARW",
+      "name": "Meratus Jasa Prima Tbk.",
+      "yahoo_symbol": "KARW.JK"
+    },
+    {
+      "symbol": "KAYU",
+      "name": "Darmi Bersaudara Tbk.",
+      "yahoo_symbol": "KAYU.JK"
+    },
+    {
+      "symbol": "KBAG",
+      "name": "Karya Bersama Anugerah Tbk.",
+      "yahoo_symbol": "KBAG.JK"
+    },
+    {
+      "symbol": "KBLI",
+      "name": "KMI Wire & Cable Tbk.",
+      "yahoo_symbol": "KBLI.JK"
+    },
+    {
+      "symbol": "KBLM",
+      "name": "Kabelindo Murni Tbk.",
+      "yahoo_symbol": "KBLM.JK"
+    },
+    {
+      "symbol": "KBLV",
+      "name": "First Media Tbk.",
+      "yahoo_symbol": "KBLV.JK"
+    },
+    {
+      "symbol": "KBRI",
+      "name": "Kertas Basuki Rachmat Indonesi",
+      "yahoo_symbol": "KBRI.JK"
+    },
+    {
+      "symbol": "KDSI",
+      "name": "Kedawung Setia Industrial Tbk.",
+      "yahoo_symbol": "KDSI.JK"
+    },
+    {
+      "symbol": "KDTN",
+      "name": "Puri Sentul Permai Tbk.",
+      "yahoo_symbol": "KDTN.JK"
+    },
+    {
+      "symbol": "KEEN",
+      "name": "Kencana Energi Lestari Tbk.",
+      "yahoo_symbol": "KEEN.JK"
+    },
+    {
+      "symbol": "KEJU",
+      "name": "Mulia Boga Raya Tbk.",
+      "yahoo_symbol": "KEJU.JK"
+    },
+    {
+      "symbol": "KETR",
+      "name": "Ketrosden Triasmitra Tbk.",
+      "yahoo_symbol": "KETR.JK"
+    },
+    {
+      "symbol": "KIAS",
+      "name": "Keramika Indonesia Assosiasi T",
+      "yahoo_symbol": "KIAS.JK"
+    },
+    {
+      "symbol": "KICI",
+      "name": "Kedaung Indah Can Tbk",
+      "yahoo_symbol": "KICI.JK"
+    },
+    {
+      "symbol": "KIJA",
+      "name": "Kawasan Industri Jababeka Tbk.",
+      "yahoo_symbol": "KIJA.JK"
+    },
+    {
+      "symbol": "KING",
+      "name": "Hoffmen Cleanindo Tbk.",
+      "yahoo_symbol": "KING.JK"
+    },
+    {
+      "symbol": "KINO",
+      "name": "Kino Indonesia Tbk.",
+      "yahoo_symbol": "KINO.JK"
+    },
+    {
+      "symbol": "KIOS",
+      "name": "Kioson Komersial Indonesia Tbk",
+      "yahoo_symbol": "KIOS.JK"
+    },
+    {
+      "symbol": "KJEN",
+      "name": "Krida Jaringan Nusantara Tbk.",
+      "yahoo_symbol": "KJEN.JK"
+    },
+    {
+      "symbol": "KKES",
+      "name": "Kusuma Kemindo Sentosa Tbk.",
+      "yahoo_symbol": "KKES.JK"
+    },
+    {
+      "symbol": "KKGI",
+      "name": "Resource Alam Indonesia Tbk.",
+      "yahoo_symbol": "KKGI.JK"
+    },
+    {
+      "symbol": "KLAS",
+      "name": "Pelayaran Kurnia Lautan Semest",
+      "yahoo_symbol": "KLAS.JK"
+    },
+    {
+      "symbol": "KLBF",
+      "name": "Kalbe Farma Tbk.",
+      "yahoo_symbol": "KLBF.JK"
+    },
+    {
+      "symbol": "KLIN",
+      "name": "Klinko Karya Imaji Tbk.",
+      "yahoo_symbol": "KLIN.JK"
+    },
+    {
+      "symbol": "KMDS",
+      "name": "Kurniamitra Duta Sentosa Tbk.",
+      "yahoo_symbol": "KMDS.JK"
+    },
+    {
+      "symbol": "KMTR",
+      "name": "Kirana Megatara Tbk.",
+      "yahoo_symbol": "KMTR.JK"
+    },
+    {
+      "symbol": "KOBX",
+      "name": "Kobexindo Tractors Tbk.",
+      "yahoo_symbol": "KOBX.JK"
+    },
+    {
+      "symbol": "KOCI",
+      "name": "Kokoh Exa Nusantara Tbk.",
+      "yahoo_symbol": "KOCI.JK"
+    },
+    {
+      "symbol": "KOIN",
+      "name": "Kokoh Inti Arebama Tbk",
+      "yahoo_symbol": "KOIN.JK"
+    },
+    {
+      "symbol": "KOKA",
+      "name": "Koka Indonesia Tbk.",
+      "yahoo_symbol": "KOKA.JK"
+    },
+    {
+      "symbol": "KONI",
+      "name": "Perdana Bangun Pusaka Tbk",
+      "yahoo_symbol": "KONI.JK"
+    },
+    {
+      "symbol": "KOPI",
+      "name": "Mitra Energi Persada Tbk.",
+      "yahoo_symbol": "KOPI.JK"
+    },
+    {
+      "symbol": "KOTA",
+      "name": "DMS Propertindo Tbk.",
+      "yahoo_symbol": "KOTA.JK"
+    },
+    {
+      "symbol": "KPIG",
+      "name": "MNC Tourism Indonesia Tbk.",
+      "yahoo_symbol": "KPIG.JK"
+    },
+    {
+      "symbol": "KRAS",
+      "name": "Krakatau Steel (Persero) Tbk.",
+      "yahoo_symbol": "KRAS.JK"
+    },
+    {
+      "symbol": "KREN",
+      "name": "Quantum Clovera Investama Tbk.",
+      "yahoo_symbol": "KREN.JK"
+    },
+    {
+      "symbol": "KRYA",
+      "name": "Bangun Karya Perkasa Jaya Tbk.",
+      "yahoo_symbol": "KRYA.JK"
+    },
+    {
+      "symbol": "KSIX",
+      "name": "Kentanix Supra International T",
+      "yahoo_symbol": "KSIX.JK"
+    },
+    {
+      "symbol": "KUAS",
+      "name": "Ace Oldfields Tbk.",
+      "yahoo_symbol": "KUAS.JK"
+    },
+    {
+      "symbol": "LABA",
+      "name": "Green Power Group Tbk.",
+      "yahoo_symbol": "LABA.JK"
+    },
+    {
+      "symbol": "LABS",
+      "name": "UBC Medical Indonesia Tbk.",
+      "yahoo_symbol": "LABS.JK"
+    },
+    {
+      "symbol": "LAJU",
+      "name": "Jasa Berdikari Logistics Tbk.",
+      "yahoo_symbol": "LAJU.JK"
+    },
+    {
+      "symbol": "LAND",
+      "name": "Trimitra Propertindo Tbk.",
+      "yahoo_symbol": "LAND.JK"
+    },
+    {
+      "symbol": "LAPD",
+      "name": "Leyand International Tbk.",
+      "yahoo_symbol": "LAPD.JK"
+    },
+    {
+      "symbol": "LCGP",
+      "name": "Eureka Prima Jakarta Tbk.",
+      "yahoo_symbol": "LCGP.JK"
+    },
+    {
+      "symbol": "LCKM",
+      "name": "LCK Global Kedaton Tbk.",
+      "yahoo_symbol": "LCKM.JK"
+    },
+    {
+      "symbol": "LEAD",
+      "name": "Logindo Samudramakmur Tbk.",
+      "yahoo_symbol": "LEAD.JK"
+    },
+    {
+      "symbol": "LFLO",
+      "name": "Imago Mulia Persada Tbk.",
+      "yahoo_symbol": "LFLO.JK"
+    },
+    {
+      "symbol": "LIFE",
+      "name": "MSIG Life Insurance Indonesia ",
+      "yahoo_symbol": "LIFE.JK"
+    },
+    {
+      "symbol": "LINK",
+      "name": "Link Net Tbk.",
+      "yahoo_symbol": "LINK.JK"
+    },
+    {
+      "symbol": "LION",
+      "name": "Lion Metal Works Tbk.",
+      "yahoo_symbol": "LION.JK"
+    },
+    {
+      "symbol": "LIVE",
+      "name": "Homeco Victoria Makmur Tbk.",
+      "yahoo_symbol": "LIVE.JK"
+    },
+    {
+      "symbol": "LMAS",
+      "name": "Limas Indonesia Makmur Tbk",
+      "yahoo_symbol": "LMAS.JK"
+    },
+    {
+      "symbol": "LMAX",
+      "name": "Lupromax Pelumas Indonesia Tbk",
+      "yahoo_symbol": "LMAX.JK"
+    },
+    {
+      "symbol": "LMPI",
+      "name": "Langgeng Makmur Industri Tbk.",
+      "yahoo_symbol": "LMPI.JK"
+    },
+    {
+      "symbol": "LMSH",
+      "name": "Lionmesh Prima Tbk.",
+      "yahoo_symbol": "LMSH.JK"
+    },
+    {
+      "symbol": "LOPI",
+      "name": "Logisticsplus International Tb",
+      "yahoo_symbol": "LOPI.JK"
+    },
+    {
+      "symbol": "LPCK",
+      "name": "Lippo Cikarang Tbk",
+      "yahoo_symbol": "LPCK.JK"
+    },
+    {
+      "symbol": "LPGI",
+      "name": "Lippo General Insurance Tbk.",
+      "yahoo_symbol": "LPGI.JK"
+    },
+    {
+      "symbol": "LPIN",
+      "name": "Multi Prima Sejahtera Tbk",
+      "yahoo_symbol": "LPIN.JK"
+    },
+    {
+      "symbol": "LPKR",
+      "name": "Lippo Karawaci Tbk.",
+      "yahoo_symbol": "LPKR.JK"
+    },
+    {
+      "symbol": "LPLI",
+      "name": "Star Pacific Tbk",
+      "yahoo_symbol": "LPLI.JK"
+    },
+    {
+      "symbol": "LPPF",
+      "name": "MDS Retailing Tbk.",
+      "yahoo_symbol": "LPPF.JK"
+    },
+    {
+      "symbol": "LPPS",
+      "name": "Lenox Pasifik Investama Tbk.",
+      "yahoo_symbol": "LPPS.JK"
+    },
+    {
+      "symbol": "LRNA",
+      "name": "Eka Sari Lorena Transport Tbk.",
+      "yahoo_symbol": "LRNA.JK"
+    },
+    {
+      "symbol": "LSIP",
+      "name": "PP London Sumatra Indonesia Tb",
+      "yahoo_symbol": "LSIP.JK"
+    },
+    {
+      "symbol": "LTLS",
+      "name": "Lautan Luas Tbk.",
+      "yahoo_symbol": "LTLS.JK"
+    },
+    {
+      "symbol": "LUCK",
+      "name": "Sentral Mitra Informatika Tbk.",
+      "yahoo_symbol": "LUCK.JK"
+    },
+    {
+      "symbol": "LUCY",
+      "name": "Lima Dua Lima Tiga Tbk.",
+      "yahoo_symbol": "LUCY.JK"
+    },
+    {
+      "symbol": "MABA",
+      "name": "Marga Abhinaya Abadi Tbk.",
+      "yahoo_symbol": "MABA.JK"
+    },
+    {
+      "symbol": "MAGP",
+      "name": "Multi Agro Gemilang Plantation",
+      "yahoo_symbol": "MAGP.JK"
+    },
+    {
+      "symbol": "MAHA",
+      "name": "Mandiri Herindo Adiperkasa Tbk",
+      "yahoo_symbol": "MAHA.JK"
+    },
+    {
+      "symbol": "MAIN",
+      "name": "Malindo Feedmill Tbk.",
+      "yahoo_symbol": "MAIN.JK"
+    },
+    {
+      "symbol": "MANG",
+      "name": "Manggung Polahraya Tbk.",
+      "yahoo_symbol": "MANG.JK"
+    },
+    {
+      "symbol": "MAPA",
+      "name": "Map Aktif Adiperkasa Tbk.",
+      "yahoo_symbol": "MAPA.JK"
+    },
+    {
+      "symbol": "MAPB",
+      "name": "MAP Boga Adiperkasa Tbk.",
+      "yahoo_symbol": "MAPB.JK"
+    },
+    {
+      "symbol": "MAPI",
+      "name": "Mitra Adiperkasa Tbk.",
+      "yahoo_symbol": "MAPI.JK"
+    },
+    {
+      "symbol": "MARI",
+      "name": "Mahaka Radio Integra Tbk.",
+      "yahoo_symbol": "MARI.JK"
+    },
+    {
+      "symbol": "MARK",
+      "name": "Mark Dynamics Indonesia Tbk.",
+      "yahoo_symbol": "MARK.JK"
+    },
+    {
+      "symbol": "MASB",
+      "name": "Bank Multiarta Sentosa Tbk.",
+      "yahoo_symbol": "MASB.JK"
+    },
+    {
+      "symbol": "MAXI",
+      "name": "Maxindo Karya Anugerah Tbk.",
+      "yahoo_symbol": "MAXI.JK"
+    },
+    {
+      "symbol": "MAYA",
+      "name": "Bank Mayapada Internasional Tb",
+      "yahoo_symbol": "MAYA.JK"
+    },
+    {
+      "symbol": "MBAP",
+      "name": "Mitrabara Adiperdana Tbk.",
+      "yahoo_symbol": "MBAP.JK"
+    },
+    {
+      "symbol": "MBMA",
+      "name": "Merdeka Battery Materials Tbk.",
+      "yahoo_symbol": "MBMA.JK"
+    },
+    {
+      "symbol": "MBSS",
+      "name": "Mitrabahtera Segara Sejati Tbk",
+      "yahoo_symbol": "MBSS.JK"
+    },
+    {
+      "symbol": "MBTO",
+      "name": "Martina Berto Tbk.",
+      "yahoo_symbol": "MBTO.JK"
+    },
+    {
+      "symbol": "MCAS",
+      "name": "M Cash Integrasi Tbk.",
+      "yahoo_symbol": "MCAS.JK"
+    },
+    {
+      "symbol": "MCOL",
+      "name": "Prima Andalan Mandiri Tbk.",
+      "yahoo_symbol": "MCOL.JK"
+    },
+    {
+      "symbol": "MCOR",
+      "name": "Bank China Construction Bank I",
+      "yahoo_symbol": "MCOR.JK"
+    },
+    {
+      "symbol": "MDIA",
+      "name": "Intermedia Capital Tbk.",
+      "yahoo_symbol": "MDIA.JK"
+    },
+    {
+      "symbol": "MDIY",
+      "name": "Daya Intiguna Yasa Tbk.",
+      "yahoo_symbol": "MDIY.JK"
+    },
+    {
+      "symbol": "MDKA",
+      "name": "Merdeka Copper Gold Tbk.",
+      "yahoo_symbol": "MDKA.JK"
+    },
+    {
+      "symbol": "MDKI",
+      "name": "Emdeki Utama Tbk.",
+      "yahoo_symbol": "MDKI.JK"
+    },
+    {
+      "symbol": "MDLA",
+      "name": "Medela Potentia Tbk.",
+      "yahoo_symbol": "MDLA.JK"
+    },
+    {
+      "symbol": "MDLN",
+      "name": "Modernland Realty Tbk.",
+      "yahoo_symbol": "MDLN.JK"
+    },
+    {
+      "symbol": "MDRN",
+      "name": "Modern Internasional Tbk.",
+      "yahoo_symbol": "MDRN.JK"
+    },
+    {
+      "symbol": "MEDC",
+      "name": "Medco Energi Internasional Tbk",
+      "yahoo_symbol": "MEDC.JK"
+    },
+    {
+      "symbol": "MEDS",
+      "name": "Hetzer Medical Indonesia Tbk.",
+      "yahoo_symbol": "MEDS.JK"
+    },
+    {
+      "symbol": "MEGA",
+      "name": "Bank Mega Tbk.",
+      "yahoo_symbol": "MEGA.JK"
+    },
+    {
+      "symbol": "MEJA",
+      "name": "Harta Djaya Karya Tbk.",
+      "yahoo_symbol": "MEJA.JK"
+    },
+    {
+      "symbol": "MENN",
+      "name": "Menn Teknologi Indonesia Tbk.",
+      "yahoo_symbol": "MENN.JK"
+    },
+    {
+      "symbol": "MERI",
+      "name": "Merry Riana Edukasi Tbk.",
+      "yahoo_symbol": "MERI.JK"
+    },
+    {
+      "symbol": "MERK",
+      "name": "Merck Tbk.",
+      "yahoo_symbol": "MERK.JK"
+    },
+    {
+      "symbol": "META",
+      "name": "Nusantara Infrastructure Tbk.",
+      "yahoo_symbol": "META.JK"
+    },
+    {
+      "symbol": "MFMI",
+      "name": "Multifiling Mitra Indonesia Tb",
+      "yahoo_symbol": "MFMI.JK"
+    },
+    {
+      "symbol": "MGLV",
+      "name": "NexAI Digital Infrastruktur Tb",
+      "yahoo_symbol": "MGLV.JK"
+    },
+    {
+      "symbol": "MGNA",
+      "name": "Magna Investama Mandiri Tbk.",
+      "yahoo_symbol": "MGNA.JK"
+    },
+    {
+      "symbol": "MGRO",
+      "name": "Mahkota Group Tbk.",
+      "yahoo_symbol": "MGRO.JK"
+    },
+    {
+      "symbol": "MHKI",
+      "name": "Multi Hanna Kreasindo Tbk.",
+      "yahoo_symbol": "MHKI.JK"
+    },
+    {
+      "symbol": "MICE",
+      "name": "Multi Indocitra Tbk.",
+      "yahoo_symbol": "MICE.JK"
+    },
+    {
+      "symbol": "MIDI",
+      "name": "Midi Utama Indonesia Tbk.",
+      "yahoo_symbol": "MIDI.JK"
+    },
+    {
+      "symbol": "MIKA",
+      "name": "Mitra Keluarga Karyasehat Tbk.",
+      "yahoo_symbol": "MIKA.JK"
+    },
+    {
+      "symbol": "MINA",
+      "name": "Sanurhasta Mitra Tbk.",
+      "yahoo_symbol": "MINA.JK"
+    },
+    {
+      "symbol": "MINE",
+      "name": "Sinar Terang Mandiri Tbk.",
+      "yahoo_symbol": "MINE.JK"
+    },
+    {
+      "symbol": "MIRA",
+      "name": "Mitra International Resources ",
+      "yahoo_symbol": "MIRA.JK"
+    },
+    {
+      "symbol": "MITI",
+      "name": "Mitra Investindo Tbk.",
+      "yahoo_symbol": "MITI.JK"
+    },
+    {
+      "symbol": "MKAP",
+      "name": "Multikarya Asia Pasifik Raya T",
+      "yahoo_symbol": "MKAP.JK"
+    },
+    {
+      "symbol": "MKNT",
+      "name": "Mitra Komunikasi Nusantara Tbk",
+      "yahoo_symbol": "MKNT.JK"
+    },
+    {
+      "symbol": "MKPI",
+      "name": "Metropolitan Kentjana Tbk.",
+      "yahoo_symbol": "MKPI.JK"
+    },
+    {
+      "symbol": "MKTR",
+      "name": "Menthobi Karyatama Raya Tbk.",
+      "yahoo_symbol": "MKTR.JK"
+    },
+    {
+      "symbol": "MLBI",
+      "name": "Multi Bintang Indonesia Tbk.",
+      "yahoo_symbol": "MLBI.JK"
+    },
+    {
+      "symbol": "MLIA",
+      "name": "Mulia Industrindo Tbk",
+      "yahoo_symbol": "MLIA.JK"
+    },
+    {
+      "symbol": "MLPL",
+      "name": "Multipolar Tbk.",
+      "yahoo_symbol": "MLPL.JK"
+    },
+    {
+      "symbol": "MLPT",
+      "name": "Multipolar Technology Tbk.",
+      "yahoo_symbol": "MLPT.JK"
+    },
+    {
+      "symbol": "MMIX",
+      "name": "Multi Medika Internasional Tbk",
+      "yahoo_symbol": "MMIX.JK"
+    },
+    {
+      "symbol": "MMLP",
+      "name": "Mega Manunggal Property Tbk.",
+      "yahoo_symbol": "MMLP.JK"
+    },
+    {
+      "symbol": "MNCN",
+      "name": "Media Nusantara Citra Tbk.",
+      "yahoo_symbol": "MNCN.JK"
+    },
+    {
+      "symbol": "MOLI",
+      "name": "Madusari Murni Indah Tbk.",
+      "yahoo_symbol": "MOLI.JK"
+    },
+    {
+      "symbol": "MORA",
+      "name": "Ekamas Mora Republik Tbk.",
+      "yahoo_symbol": "MORA.JK"
+    },
+    {
+      "symbol": "MPIX",
+      "name": "Mitra Pedagang Indonesia Tbk.",
+      "yahoo_symbol": "MPIX.JK"
+    },
+    {
+      "symbol": "MPMX",
+      "name": "Mitra Pinasthika Mustika Tbk.",
+      "yahoo_symbol": "MPMX.JK"
+    },
+    {
+      "symbol": "MPOW",
+      "name": "Megapower Makmur Tbk.",
+      "yahoo_symbol": "MPOW.JK"
+    },
+    {
+      "symbol": "MPPA",
+      "name": "Matahari Putra Prima Tbk.",
+      "yahoo_symbol": "MPPA.JK"
+    },
+    {
+      "symbol": "MPRO",
+      "name": "Maha Properti Indonesia Tbk.",
+      "yahoo_symbol": "MPRO.JK"
+    },
+    {
+      "symbol": "MPXL",
+      "name": "MPX Logistics International Tb",
+      "yahoo_symbol": "MPXL.JK"
+    },
+    {
+      "symbol": "MRAT",
+      "name": "Mustika Ratu Tbk.",
+      "yahoo_symbol": "MRAT.JK"
+    },
+    {
+      "symbol": "MREI",
+      "name": "Maskapai Reasuransi Indonesia ",
+      "yahoo_symbol": "MREI.JK"
+    },
+    {
+      "symbol": "MSIE",
+      "name": "Multisarana Intan Eduka Tbk.",
+      "yahoo_symbol": "MSIE.JK"
+    },
+    {
+      "symbol": "MSIN",
+      "name": "MNC Digital Entertainment Tbk.",
+      "yahoo_symbol": "MSIN.JK"
+    },
+    {
+      "symbol": "MSJA",
+      "name": "Multi Spunindo Jaya Tbk.",
+      "yahoo_symbol": "MSJA.JK"
+    },
+    {
+      "symbol": "MSKY",
+      "name": "MNC Sky Vision Tbk.",
+      "yahoo_symbol": "MSKY.JK"
+    },
+    {
+      "symbol": "MSTI",
+      "name": "Mastersystem Infotama Tbk.",
+      "yahoo_symbol": "MSTI.JK"
+    },
+    {
+      "symbol": "MTDL",
+      "name": "Metrodata Electronics Tbk.",
+      "yahoo_symbol": "MTDL.JK"
+    },
+    {
+      "symbol": "MTEL",
+      "name": "Dayamitra Telekomunikasi Tbk.",
+      "yahoo_symbol": "MTEL.JK"
+    },
+    {
+      "symbol": "MTFN",
+      "name": "Capitalinc Investment Tbk.",
+      "yahoo_symbol": "MTFN.JK"
+    },
+    {
+      "symbol": "MTLA",
+      "name": "Metropolitan Land Tbk.",
+      "yahoo_symbol": "MTLA.JK"
+    },
+    {
+      "symbol": "MTMH",
+      "name": "Murni Sadar Tbk.",
+      "yahoo_symbol": "MTMH.JK"
+    },
+    {
+      "symbol": "MTPS",
+      "name": "Meta Epsi Tbk.",
+      "yahoo_symbol": "MTPS.JK"
+    },
+    {
+      "symbol": "MTRA",
+      "name": "Mitra Pemuda Tbk.",
+      "yahoo_symbol": "MTRA.JK"
+    },
+    {
+      "symbol": "MTSM",
+      "name": "Metro Realty Tbk.",
+      "yahoo_symbol": "MTSM.JK"
+    },
+    {
+      "symbol": "MTWI",
+      "name": "Malacca Trust Wuwungan Insuran",
+      "yahoo_symbol": "MTWI.JK"
+    },
+    {
+      "symbol": "MUTU",
+      "name": "Mutuagung Lestari Tbk.",
+      "yahoo_symbol": "MUTU.JK"
+    },
+    {
+      "symbol": "MYOH",
+      "name": "Samindo Resources Tbk.",
+      "yahoo_symbol": "MYOH.JK"
+    },
+    {
+      "symbol": "MYOR",
+      "name": "Mayora Indah Tbk.",
+      "yahoo_symbol": "MYOR.JK"
+    },
+    {
+      "symbol": "MYTX",
+      "name": "Asia Pacific Investama Tbk.",
+      "yahoo_symbol": "MYTX.JK"
+    },
+    {
+      "symbol": "NAIK",
+      "name": "Adiwarna Anugerah Abadi Tbk.",
+      "yahoo_symbol": "NAIK.JK"
+    },
+    {
+      "symbol": "NANO",
+      "name": "Nanotech Indonesia Global Tbk.",
+      "yahoo_symbol": "NANO.JK"
+    },
+    {
+      "symbol": "NASA",
+      "name": "Andalan Perkasa Abadi Tbk.",
+      "yahoo_symbol": "NASA.JK"
+    },
+    {
+      "symbol": "NASI",
+      "name": "Wahana Inti Makmur Tbk.",
+      "yahoo_symbol": "NASI.JK"
+    },
+    {
+      "symbol": "NATO",
+      "name": "Olympus Strategic Indonesia Tb",
+      "yahoo_symbol": "NATO.JK"
+    },
+    {
+      "symbol": "NAYZ",
+      "name": "Hassana Boga Sejahtera Tbk.",
+      "yahoo_symbol": "NAYZ.JK"
+    },
+    {
+      "symbol": "NCKL",
+      "name": "Trimegah Bangun Persada Tbk.",
+      "yahoo_symbol": "NCKL.JK"
+    },
+    {
+      "symbol": "NELY",
+      "name": "Pelayaran Nelly Dwi Putri Tbk.",
+      "yahoo_symbol": "NELY.JK"
+    },
+    {
+      "symbol": "NEST",
+      "name": "Esta Indonesia Tbk.",
+      "yahoo_symbol": "NEST.JK"
+    },
+    {
+      "symbol": "NETV",
+      "name": "MDTV Media Technologies Tbk.",
+      "yahoo_symbol": "NETV.JK"
+    },
+    {
+      "symbol": "NFCX",
+      "name": "NFC Indonesia Tbk.",
+      "yahoo_symbol": "NFCX.JK"
+    },
+    {
+      "symbol": "NICE",
+      "name": "Adhi Kartiko Pratama Tbk.",
+      "yahoo_symbol": "NICE.JK"
+    },
+    {
+      "symbol": "NICK",
+      "name": "Charnic Capital Tbk.",
+      "yahoo_symbol": "NICK.JK"
+    },
+    {
+      "symbol": "NICL",
+      "name": "PAM Mineral Tbk.",
+      "yahoo_symbol": "NICL.JK"
+    },
+    {
+      "symbol": "NIKL",
+      "name": "Pelat Timah Nusantara Tbk.",
+      "yahoo_symbol": "NIKL.JK"
+    },
+    {
+      "symbol": "NINE",
+      "name": "Techno9 Indonesia Tbk.",
+      "yahoo_symbol": "NINE.JK"
+    },
+    {
+      "symbol": "NIRO",
+      "name": "City Retail Developments Tbk.",
+      "yahoo_symbol": "NIRO.JK"
+    },
+    {
+      "symbol": "NISP",
+      "name": "Bank OCBC NISP Tbk.",
+      "yahoo_symbol": "NISP.JK"
+    },
+    {
+      "symbol": "NOBU",
+      "name": "Bank Nationalnobu Tbk.",
+      "yahoo_symbol": "NOBU.JK"
+    },
+    {
+      "symbol": "NPGF",
+      "name": "Nusa Palapa Gemilang Tbk.",
+      "yahoo_symbol": "NPGF.JK"
+    },
+    {
+      "symbol": "NRCA",
+      "name": "Nusa Raya Cipta Tbk.",
+      "yahoo_symbol": "NRCA.JK"
+    },
+    {
+      "symbol": "NSSS",
+      "name": "Nusantara Sawit Sejahtera Tbk.",
+      "yahoo_symbol": "NSSS.JK"
+    },
+    {
+      "symbol": "NTBK",
+      "name": "Nusatama Berkah Tbk.",
+      "yahoo_symbol": "NTBK.JK"
+    },
+    {
+      "symbol": "NUSA",
+      "name": "Sinergi Megah Internusa Tbk.",
+      "yahoo_symbol": "NUSA.JK"
+    },
+    {
+      "symbol": "NZIA",
+      "name": "Nusantara Almazia Tbk.",
+      "yahoo_symbol": "NZIA.JK"
+    },
+    {
+      "symbol": "OASA",
+      "name": "Maharaksa Biru Energi Tbk.",
+      "yahoo_symbol": "OASA.JK"
+    },
+    {
+      "symbol": "OBAT",
+      "name": "Brigit Biofarmaka Teknologi Tb",
+      "yahoo_symbol": "OBAT.JK"
+    },
+    {
+      "symbol": "OBMD",
+      "name": "OBM Drilchem Tbk.",
+      "yahoo_symbol": "OBMD.JK"
+    },
+    {
+      "symbol": "OCAP",
+      "name": "Onix Capital Tbk.",
+      "yahoo_symbol": "OCAP.JK"
+    },
+    {
+      "symbol": "OILS",
+      "name": "Indo Oil Perkasa Tbk.",
+      "yahoo_symbol": "OILS.JK"
+    },
+    {
+      "symbol": "OKAS",
+      "name": "Ancora Indonesia Resources Tbk",
+      "yahoo_symbol": "OKAS.JK"
+    },
+    {
+      "symbol": "OLIV",
+      "name": "Atlas Nexus Group Tbk.",
+      "yahoo_symbol": "OLIV.JK"
+    },
+    {
+      "symbol": "OMED",
+      "name": "Jayamas Medica Industri Tbk.",
+      "yahoo_symbol": "OMED.JK"
+    },
+    {
+      "symbol": "OMRE",
+      "name": "Indonesia Prima Property Tbk",
+      "yahoo_symbol": "OMRE.JK"
+    },
+    {
+      "symbol": "OPMS",
+      "name": "Optima Prima Metal Sinergi Tbk",
+      "yahoo_symbol": "OPMS.JK"
+    },
+    {
+      "symbol": "PACK",
+      "name": "Abadi Nusantara Hijau Investam",
+      "yahoo_symbol": "PACK.JK"
+    },
+    {
+      "symbol": "PADA",
+      "name": "Personel Alih Daya Tbk.",
+      "yahoo_symbol": "PADA.JK"
+    },
+    {
+      "symbol": "PADI",
+      "name": "Minna Padi Investama Sekuritas",
+      "yahoo_symbol": "PADI.JK"
+    },
+    {
+      "symbol": "PALM",
+      "name": "Provident Investasi Bersama Tb",
+      "yahoo_symbol": "PALM.JK"
+    },
+    {
+      "symbol": "PAMG",
+      "name": "Bima Sakti Pertiwi Tbk.",
+      "yahoo_symbol": "PAMG.JK"
+    },
+    {
+      "symbol": "PANI",
+      "name": "Pantai Indah Kapuk Dua Tbk.",
+      "yahoo_symbol": "PANI.JK"
+    },
+    {
+      "symbol": "PANR",
+      "name": "Panorama Sentrawisata Tbk.",
+      "yahoo_symbol": "PANR.JK"
+    },
+    {
+      "symbol": "PANS",
+      "name": "Panin Sekuritas Tbk.",
+      "yahoo_symbol": "PANS.JK"
+    },
+    {
+      "symbol": "PART",
+      "name": "Cipta Perdana Lancar Tbk.",
+      "yahoo_symbol": "PART.JK"
+    },
+    {
+      "symbol": "PBID",
+      "name": "Panca Budi Idaman Tbk.",
+      "yahoo_symbol": "PBID.JK"
+    },
+    {
+      "symbol": "PBRX",
+      "name": "Pan Brothers Tbk.",
+      "yahoo_symbol": "PBRX.JK"
+    },
+    {
+      "symbol": "PBSA",
+      "name": "Paramita Bangun Sarana Tbk.",
+      "yahoo_symbol": "PBSA.JK"
+    },
+    {
+      "symbol": "PCAR",
+      "name": "Prima Cakrawala Abadi Tbk.",
+      "yahoo_symbol": "PCAR.JK"
+    },
+    {
+      "symbol": "PDES",
+      "name": "Destinasi Tirta Nusantara Tbk",
+      "yahoo_symbol": "PDES.JK"
+    },
+    {
+      "symbol": "PDPP",
+      "name": "Primadaya Plastisindo Tbk.",
+      "yahoo_symbol": "PDPP.JK"
+    },
+    {
+      "symbol": "PEGE",
+      "name": "Panca Global Kapital Tbk.",
+      "yahoo_symbol": "PEGE.JK"
+    },
+    {
+      "symbol": "PEHA",
+      "name": "Phapros Tbk.",
+      "yahoo_symbol": "PEHA.JK"
+    },
+    {
+      "symbol": "PEVE",
+      "name": "Penta Valent Tbk.",
+      "yahoo_symbol": "PEVE.JK"
+    },
+    {
+      "symbol": "PGAS",
+      "name": "Perusahaan Gas Negara (Persero",
+      "yahoo_symbol": "PGAS.JK"
+    },
+    {
+      "symbol": "PGEO",
+      "name": "Pertamina Geothermal Energy Tb",
+      "yahoo_symbol": "PGEO.JK"
+    },
+    {
+      "symbol": "PGJO",
+      "name": "Bahtera Bumi Raya Tbk.",
+      "yahoo_symbol": "PGJO.JK"
+    },
+    {
+      "symbol": "PGLI",
+      "name": "Pembangunan Graha Lestari Inda",
+      "yahoo_symbol": "PGLI.JK"
+    },
+    {
+      "symbol": "PGUN",
+      "name": "Pradiksi Gunatama Tbk.",
+      "yahoo_symbol": "PGUN.JK"
+    },
+    {
+      "symbol": "PICO",
+      "name": "Pelangi Indah Canindo Tbk",
+      "yahoo_symbol": "PICO.JK"
+    },
+    {
+      "symbol": "PIPA",
+      "name": "Oxala Energy International Tbk",
+      "yahoo_symbol": "PIPA.JK"
+    },
+    {
+      "symbol": "PJAA",
+      "name": "Pembangunan Jaya Ancol Tbk.",
+      "yahoo_symbol": "PJAA.JK"
+    },
+    {
+      "symbol": "PJHB",
+      "name": "Pelayaran Jaya Hidup Baru Tbk.",
+      "yahoo_symbol": "PJHB.JK"
+    },
+    {
+      "symbol": "PKPK",
+      "name": "Paragon Karya Perkasa Tbk.",
+      "yahoo_symbol": "PKPK.JK"
+    },
+    {
+      "symbol": "PLAN",
+      "name": "Planet Properindo Jaya Tbk.",
+      "yahoo_symbol": "PLAN.JK"
+    },
+    {
+      "symbol": "PLAS",
+      "name": "Polaris Investama Tbk",
+      "yahoo_symbol": "PLAS.JK"
+    },
+    {
+      "symbol": "PLIN",
+      "name": "Plaza Indonesia Realty Tbk.",
+      "yahoo_symbol": "PLIN.JK"
+    },
+    {
+      "symbol": "PMJS",
+      "name": "Putra Mandiri Jembar Tbk.",
+      "yahoo_symbol": "PMJS.JK"
+    },
+    {
+      "symbol": "PMMP",
+      "name": "Panca Mitra Multiperdana Tbk.",
+      "yahoo_symbol": "PMMP.JK"
+    },
+    {
+      "symbol": "PMUI",
+      "name": "Prima Multi Usaha Indonesia Tb",
+      "yahoo_symbol": "PMUI.JK"
+    },
+    {
+      "symbol": "PNBN",
+      "name": "Bank Pan Indonesia Tbk",
+      "yahoo_symbol": "PNBN.JK"
+    },
+    {
+      "symbol": "PNBS",
+      "name": "Bank Panin Dubai Syariah Tbk.",
+      "yahoo_symbol": "PNBS.JK"
+    },
+    {
+      "symbol": "PNGO",
+      "name": "AEP Pinago Plantations Tbk.",
+      "yahoo_symbol": "PNGO.JK"
+    },
+    {
+      "symbol": "PNIN",
+      "name": "Paninvest Tbk.",
+      "yahoo_symbol": "PNIN.JK"
+    },
+    {
+      "symbol": "PNLF",
+      "name": "Panin Financial Tbk.",
+      "yahoo_symbol": "PNLF.JK"
+    },
+    {
+      "symbol": "PNSE",
+      "name": "Pudjiadi & Sons Tbk.",
+      "yahoo_symbol": "PNSE.JK"
+    },
+    {
+      "symbol": "POLA",
+      "name": "Pool Advista Finance Tbk.",
+      "yahoo_symbol": "POLA.JK"
+    },
+    {
+      "symbol": "POLI",
+      "name": "Pollux Hotels Group Tbk.",
+      "yahoo_symbol": "POLI.JK"
+    },
+    {
+      "symbol": "POLL",
+      "name": "Pollux Properties Indonesia Tb",
+      "yahoo_symbol": "POLL.JK"
+    },
+    {
+      "symbol": "POLU",
+      "name": "Golden Flower Tbk.",
+      "yahoo_symbol": "POLU.JK"
+    },
+    {
+      "symbol": "POLY",
+      "name": "Asia Pacific Fibers Tbk",
+      "yahoo_symbol": "POLY.JK"
+    },
+    {
+      "symbol": "POOL",
+      "name": "Pool Advista Indonesia Tbk.",
+      "yahoo_symbol": "POOL.JK"
+    },
+    {
+      "symbol": "PORT",
+      "name": "Nusantara Pelabuhan Handal Tbk",
+      "yahoo_symbol": "PORT.JK"
+    },
+    {
+      "symbol": "POSA",
+      "name": "Bliss Properti Indonesia Tbk.",
+      "yahoo_symbol": "POSA.JK"
+    },
+    {
+      "symbol": "POWR",
+      "name": "Cikarang Listrindo Tbk.",
+      "yahoo_symbol": "POWR.JK"
+    },
+    {
+      "symbol": "PPGL",
+      "name": "Prima Globalindo Logistik Tbk.",
+      "yahoo_symbol": "PPGL.JK"
+    },
+    {
+      "symbol": "PPRE",
+      "name": "PP Presisi Tbk.",
+      "yahoo_symbol": "PPRE.JK"
+    },
+    {
+      "symbol": "PPRI",
+      "name": "Paperocks Indonesia Tbk.",
+      "yahoo_symbol": "PPRI.JK"
+    },
+    {
+      "symbol": "PPRO",
+      "name": "PP Properti Tbk.",
+      "yahoo_symbol": "PPRO.JK"
+    },
+    {
+      "symbol": "PRAY",
+      "name": "Famon Awal Bros Sedaya Tbk.",
+      "yahoo_symbol": "PRAY.JK"
+    },
+    {
+      "symbol": "PRDA",
+      "name": "Prodia Widyahusada Tbk.",
+      "yahoo_symbol": "PRDA.JK"
+    },
+    {
+      "symbol": "PRDL",
+      "name": "Prodia Diagnostic Line Tbk.",
+      "yahoo_symbol": "PRDL.JK"
+    },
+    {
+      "symbol": "PRIM",
+      "name": "Royal Prima Tbk.",
+      "yahoo_symbol": "PRIM.JK"
+    },
+    {
+      "symbol": "PSAB",
+      "name": "J Resources Asia Pasifik Tbk.",
+      "yahoo_symbol": "PSAB.JK"
+    },
+    {
+      "symbol": "PSAT",
+      "name": "Pancaran Samudera Transport Tb",
+      "yahoo_symbol": "PSAT.JK"
+    },
+    {
+      "symbol": "PSDN",
+      "name": "Prasidha Aneka Niaga Tbk",
+      "yahoo_symbol": "PSDN.JK"
+    },
+    {
+      "symbol": "PSGO",
+      "name": "Palma Serasih Tbk.",
+      "yahoo_symbol": "PSGO.JK"
+    },
+    {
+      "symbol": "PSKT",
+      "name": "Red Planet Indonesia Tbk.",
+      "yahoo_symbol": "PSKT.JK"
+    },
+    {
+      "symbol": "PSSI",
+      "name": "IMC Pelita Logistik Tbk.",
+      "yahoo_symbol": "PSSI.JK"
+    },
+    {
+      "symbol": "PTBA",
+      "name": "Bukit Asam (Persero) Tbk.",
+      "yahoo_symbol": "PTBA.JK"
+    },
+    {
+      "symbol": "PTDU",
+      "name": "Djasa Ubersakti Tbk.",
+      "yahoo_symbol": "PTDU.JK"
+    },
+    {
+      "symbol": "PTIS",
+      "name": "Indo Straits Tbk.",
+      "yahoo_symbol": "PTIS.JK"
+    },
+    {
+      "symbol": "PTMP",
+      "name": "Mitra Pack Tbk.",
+      "yahoo_symbol": "PTMP.JK"
+    },
+    {
+      "symbol": "PTMR",
+      "name": "Master Print Tbk.",
+      "yahoo_symbol": "PTMR.JK"
+    },
+    {
+      "symbol": "PTPP",
+      "name": "PP (Persero) Tbk.",
+      "yahoo_symbol": "PTPP.JK"
+    },
+    {
+      "symbol": "PTPS",
+      "name": "Pulau Subur Tbk.",
+      "yahoo_symbol": "PTPS.JK"
+    },
+    {
+      "symbol": "PTPW",
+      "name": "Pratama Widya Tbk.",
+      "yahoo_symbol": "PTPW.JK"
+    },
+    {
+      "symbol": "PTRO",
+      "name": "Petrosea Tbk.",
+      "yahoo_symbol": "PTRO.JK"
+    },
+    {
+      "symbol": "PTSN",
+      "name": "Sat Nusapersada Tbk",
+      "yahoo_symbol": "PTSN.JK"
+    },
+    {
+      "symbol": "PTSP",
+      "name": "Pioneerindo Gourmet Internatio",
+      "yahoo_symbol": "PTSP.JK"
+    },
+    {
+      "symbol": "PUDP",
+      "name": "Pudjiadi Prestige Tbk.",
+      "yahoo_symbol": "PUDP.JK"
+    },
+    {
+      "symbol": "PURA",
+      "name": "Putra Rajawali Kencana Tbk.",
+      "yahoo_symbol": "PURA.JK"
+    },
+    {
+      "symbol": "PURE",
+      "name": "Trinitan Metals and Minerals T",
+      "yahoo_symbol": "PURE.JK"
+    },
+    {
+      "symbol": "PURI",
+      "name": "Puri Global Sukses Tbk.",
+      "yahoo_symbol": "PURI.JK"
+    },
+    {
+      "symbol": "PWON",
+      "name": "Pakuwon Jati Tbk.",
+      "yahoo_symbol": "PWON.JK"
+    },
+    {
+      "symbol": "PYFA",
+      "name": "Pyridam Farma Tbk",
+      "yahoo_symbol": "PYFA.JK"
+    },
+    {
+      "symbol": "PZZA",
+      "name": "Sarimelati Kencana Tbk.",
+      "yahoo_symbol": "PZZA.JK"
+    },
+    {
+      "symbol": "RAAM",
+      "name": "Tripar Multivision Plus Tbk.",
+      "yahoo_symbol": "RAAM.JK"
+    },
+    {
+      "symbol": "RAFI",
+      "name": "Sari Kreasi Boga Tbk.",
+      "yahoo_symbol": "RAFI.JK"
+    },
+    {
+      "symbol": "RAJA",
+      "name": "Rukun Raharja Tbk.",
+      "yahoo_symbol": "RAJA.JK"
+    },
+    {
+      "symbol": "RALS",
+      "name": "Ramayana Lestari Sentosa Tbk.",
+      "yahoo_symbol": "RALS.JK"
+    },
+    {
+      "symbol": "RANC",
+      "name": "Supra Boga Lestari Tbk.",
+      "yahoo_symbol": "RANC.JK"
+    },
+    {
+      "symbol": "RANS",
+      "name": "Rans Entertainmen Indonesia Tb",
+      "yahoo_symbol": "RANS.JK"
+    },
+    {
+      "symbol": "RATU",
+      "name": "Raharja Energi Cepu Tbk.",
+      "yahoo_symbol": "RATU.JK"
+    },
+    {
+      "symbol": "RBMS",
+      "name": "Ristia Bintang Mahkotasejati T",
+      "yahoo_symbol": "RBMS.JK"
+    },
+    {
+      "symbol": "RCCC",
+      "name": "Utama Radar Cahaya Tbk.",
+      "yahoo_symbol": "RCCC.JK"
+    },
+    {
+      "symbol": "RDTX",
+      "name": "Roda Vivatex Tbk",
+      "yahoo_symbol": "RDTX.JK"
+    },
+    {
+      "symbol": "REAL",
+      "name": "Repower Asia Indonesia Tbk.",
+      "yahoo_symbol": "REAL.JK"
+    },
+    {
+      "symbol": "RELF",
+      "name": "Graha Mitra Asia Tbk.",
+      "yahoo_symbol": "RELF.JK"
+    },
+    {
+      "symbol": "RELI",
+      "name": "Reliance Sekuritas Indonesia T",
+      "yahoo_symbol": "RELI.JK"
+    },
+    {
+      "symbol": "RGAS",
+      "name": "Kian Santang Muliatama Tbk.",
+      "yahoo_symbol": "RGAS.JK"
+    },
+    {
+      "symbol": "RICY",
+      "name": "Ricky Putra Globalindo Tbk",
+      "yahoo_symbol": "RICY.JK"
+    },
+    {
+      "symbol": "RIGS",
+      "name": "Rig Tenders Indonesia Tbk.",
+      "yahoo_symbol": "RIGS.JK"
+    },
+    {
+      "symbol": "RIMO",
+      "name": "Rimo International Lestari Tbk",
+      "yahoo_symbol": "RIMO.JK"
+    },
+    {
+      "symbol": "RISE",
+      "name": "Jaya Sukses Makmur Sentosa Tbk",
+      "yahoo_symbol": "RISE.JK"
+    },
+    {
+      "symbol": "RLCO",
+      "name": "Abadi Lestari Indonesia Tbk.",
+      "yahoo_symbol": "RLCO.JK"
+    },
+    {
+      "symbol": "RMKE",
+      "name": "RMK Energy Tbk.",
+      "yahoo_symbol": "RMKE.JK"
+    },
+    {
+      "symbol": "RMKO",
+      "name": "Royaltama Mulia Kontraktorindo",
+      "yahoo_symbol": "RMKO.JK"
+    },
+    {
+      "symbol": "ROCK",
+      "name": "Rockfields Properti Indonesia ",
+      "yahoo_symbol": "ROCK.JK"
+    },
+    {
+      "symbol": "RODA",
+      "name": "Pikko Land Development Tbk.",
+      "yahoo_symbol": "RODA.JK"
+    },
+    {
+      "symbol": "RONY",
+      "name": "Aracord Nusantara Group Tbk.",
+      "yahoo_symbol": "RONY.JK"
+    },
+    {
+      "symbol": "ROTI",
+      "name": "Nippon Indosari Corpindo Tbk.",
+      "yahoo_symbol": "ROTI.JK"
+    },
+    {
+      "symbol": "RSCH",
+      "name": "Charlie Hospital Semarang Tbk.",
+      "yahoo_symbol": "RSCH.JK"
+    },
+    {
+      "symbol": "RSGK",
+      "name": "Kedoya Adyaraya Tbk.",
+      "yahoo_symbol": "RSGK.JK"
+    },
+    {
+      "symbol": "RUIS",
+      "name": "Radiant Utama Interinsco Tbk.",
+      "yahoo_symbol": "RUIS.JK"
+    },
+    {
+      "symbol": "RUNS",
+      "name": "Global Sukses Solusi Tbk.",
+      "yahoo_symbol": "RUNS.JK"
+    },
+    {
+      "symbol": "SAFE",
+      "name": "Steady Safe Tbk",
+      "yahoo_symbol": "SAFE.JK"
+    },
+    {
+      "symbol": "SAGE",
+      "name": "Saptausaha Gemilangindah Tbk.",
+      "yahoo_symbol": "SAGE.JK"
+    },
+    {
+      "symbol": "SAME",
+      "name": "Sarana Meditama Metropolitan T",
+      "yahoo_symbol": "SAME.JK"
+    },
+    {
+      "symbol": "SAMF",
+      "name": "Saraswanti Anugerah Makmur Tbk",
+      "yahoo_symbol": "SAMF.JK"
+    },
+    {
+      "symbol": "SAPX",
+      "name": "Satria Antaran Prima Tbk.",
+      "yahoo_symbol": "SAPX.JK"
+    },
+    {
+      "symbol": "SATU",
+      "name": "Kota Satu Properti Tbk.",
+      "yahoo_symbol": "SATU.JK"
+    },
+    {
+      "symbol": "SBAT",
+      "name": "Sejahtera Bintang Abadi Textil",
+      "yahoo_symbol": "SBAT.JK"
+    },
+    {
+      "symbol": "SBMA",
+      "name": "Surya Biru Murni Acetylene Tbk",
+      "yahoo_symbol": "SBMA.JK"
+    },
+    {
+      "symbol": "SCCO",
+      "name": "Supreme Cable Manufacturing & ",
+      "yahoo_symbol": "SCCO.JK"
+    },
+    {
+      "symbol": "SCMA",
+      "name": "Surya Citra Media Tbk.",
+      "yahoo_symbol": "SCMA.JK"
+    },
+    {
+      "symbol": "SCNP",
+      "name": "Selaras Citra Nusantara Perkas",
+      "yahoo_symbol": "SCNP.JK"
+    },
+    {
+      "symbol": "SCPI",
+      "name": "Organon Pharma Indonesia Tbk.",
+      "yahoo_symbol": "SCPI.JK"
+    },
+    {
+      "symbol": "SDMU",
+      "name": "Sidomulyo Selaras Tbk.",
+      "yahoo_symbol": "SDMU.JK"
+    },
+    {
+      "symbol": "SDPC",
+      "name": "Millennium Pharmacon Internati",
+      "yahoo_symbol": "SDPC.JK"
+    },
+    {
+      "symbol": "SDRA",
+      "name": "Bank Woori Saudara Indonesia 1",
+      "yahoo_symbol": "SDRA.JK"
+    },
+    {
+      "symbol": "SEMA",
+      "name": "Semacom Integrated Tbk.",
+      "yahoo_symbol": "SEMA.JK"
+    },
+    {
+      "symbol": "SFAN",
+      "name": "Surya Fajar Capital Tbk.",
+      "yahoo_symbol": "SFAN.JK"
+    },
+    {
+      "symbol": "SGER",
+      "name": "Sumber Global Energy Tbk.",
+      "yahoo_symbol": "SGER.JK"
+    },
+    {
+      "symbol": "SGRO",
+      "name": "Prime Agri Resources Tbk.",
+      "yahoo_symbol": "SGRO.JK"
+    },
+    {
+      "symbol": "SHID",
+      "name": "Hotel Sahid Jaya International",
+      "yahoo_symbol": "SHID.JK"
+    },
+    {
+      "symbol": "SHIP",
+      "name": "Sillo Maritime Perdana Tbk.",
+      "yahoo_symbol": "SHIP.JK"
+    },
+    {
+      "symbol": "SICO",
+      "name": "Sigma Energy Compressindo Tbk.",
+      "yahoo_symbol": "SICO.JK"
+    },
+    {
+      "symbol": "SIDO",
+      "name": "Industri Jamu dan Farmasi Sido",
+      "yahoo_symbol": "SIDO.JK"
+    },
+    {
+      "symbol": "SILO",
+      "name": "Siloam International Hospitals",
+      "yahoo_symbol": "SILO.JK"
+    },
+    {
+      "symbol": "SIMA",
+      "name": "Siwani Makmur Tbk",
+      "yahoo_symbol": "SIMA.JK"
+    },
+    {
+      "symbol": "SIMP",
+      "name": "Salim Ivomas Pratama Tbk.",
+      "yahoo_symbol": "SIMP.JK"
+    },
+    {
+      "symbol": "SINI",
+      "name": "Singaraja Putra Tbk.",
+      "yahoo_symbol": "SINI.JK"
+    },
+    {
+      "symbol": "SIPD",
+      "name": "Sreeya Sewu Indonesia Tbk.",
+      "yahoo_symbol": "SIPD.JK"
+    },
+    {
+      "symbol": "SKBM",
+      "name": "Sekar Bumi Tbk.",
+      "yahoo_symbol": "SKBM.JK"
+    },
+    {
+      "symbol": "SKLT",
+      "name": "Sekar Laut Tbk.",
+      "yahoo_symbol": "SKLT.JK"
+    },
+    {
+      "symbol": "SKRN",
+      "name": "Superkrane Mitra Utama Tbk.",
+      "yahoo_symbol": "SKRN.JK"
+    },
+    {
+      "symbol": "SKYB",
+      "name": "Northcliff Citranusa Indonesia",
+      "yahoo_symbol": "SKYB.JK"
+    },
+    {
+      "symbol": "SLIS",
+      "name": "Gaya Abadi Sempurna Tbk.",
+      "yahoo_symbol": "SLIS.JK"
+    },
+    {
+      "symbol": "SMAR",
+      "name": "Sinar Mas Agro Resources and T",
+      "yahoo_symbol": "SMAR.JK"
+    },
+    {
+      "symbol": "SMBR",
+      "name": "Semen Baturaja (Persero) Tbk.",
+      "yahoo_symbol": "SMBR.JK"
+    },
+    {
+      "symbol": "SMCB",
+      "name": "Solusi Bangun Indonesia Tbk.",
+      "yahoo_symbol": "SMCB.JK"
+    },
+    {
+      "symbol": "SMDM",
+      "name": "Suryamas Dutamakmur Tbk.",
+      "yahoo_symbol": "SMDM.JK"
+    },
+    {
+      "symbol": "SMDR",
+      "name": "Samudera Indonesia  Tbk.",
+      "yahoo_symbol": "SMDR.JK"
+    },
+    {
+      "symbol": "SMGA",
+      "name": "Sumber Mineral Global Abadi Tb",
+      "yahoo_symbol": "SMGA.JK"
+    },
+    {
+      "symbol": "SMGR",
+      "name": "Semen Indonesia (Persero) Tbk.",
+      "yahoo_symbol": "SMGR.JK"
+    },
+    {
+      "symbol": "SMIL",
+      "name": "Sarana Mitra Luas Tbk.",
+      "yahoo_symbol": "SMIL.JK"
+    },
+    {
+      "symbol": "SMKL",
+      "name": "Satyamitra Kemas Lestari Tbk.",
+      "yahoo_symbol": "SMKL.JK"
+    },
+    {
+      "symbol": "SMKM",
+      "name": "Sumber Mas Konstruksi Tbk.",
+      "yahoo_symbol": "SMKM.JK"
+    },
+    {
+      "symbol": "SMLE",
+      "name": "Sinergi Multi Lestarindo Tbk.",
+      "yahoo_symbol": "SMLE.JK"
+    },
+    {
+      "symbol": "SMMA",
+      "name": "Sinarmas Multiartha Tbk.",
+      "yahoo_symbol": "SMMA.JK"
+    },
+    {
+      "symbol": "SMMT",
+      "name": "Golden Eagle Energy Tbk.",
+      "yahoo_symbol": "SMMT.JK"
+    },
+    {
+      "symbol": "SMRA",
+      "name": "Summarecon Agung Tbk.",
+      "yahoo_symbol": "SMRA.JK"
+    },
+    {
+      "symbol": "SMRU",
+      "name": "SMR Utama Tbk.",
+      "yahoo_symbol": "SMRU.JK"
+    },
+    {
+      "symbol": "SMSM",
+      "name": "Selamat Sempurna Tbk.",
+      "yahoo_symbol": "SMSM.JK"
+    },
+    {
+      "symbol": "SNLK",
+      "name": "Sunter Lakeside Hotel Tbk.",
+      "yahoo_symbol": "SNLK.JK"
+    },
+    {
+      "symbol": "SOCI",
+      "name": "Soechi Lines Tbk.",
+      "yahoo_symbol": "SOCI.JK"
+    },
+    {
+      "symbol": "SOFA",
+      "name": "Solusi Environment Asia Tbk.",
+      "yahoo_symbol": "SOFA.JK"
+    },
+    {
+      "symbol": "SOHO",
+      "name": "Soho Global Health Tbk.",
+      "yahoo_symbol": "SOHO.JK"
+    },
+    {
+      "symbol": "SOLA",
+      "name": "Xolare RCR Energy Tbk.",
+      "yahoo_symbol": "SOLA.JK"
+    },
+    {
+      "symbol": "SONA",
+      "name": "Sona Topas Tourism Industry Tb",
+      "yahoo_symbol": "SONA.JK"
+    },
+    {
+      "symbol": "SOSS",
+      "name": "ALSOK Indonesia Services Tbk.",
+      "yahoo_symbol": "SOSS.JK"
+    },
+    {
+      "symbol": "SOTS",
+      "name": "Satria Mega Kencana Tbk.",
+      "yahoo_symbol": "SOTS.JK"
+    },
+    {
+      "symbol": "SOUL",
+      "name": "Mitra Tirta Buwana Tbk.",
+      "yahoo_symbol": "SOUL.JK"
+    },
+    {
+      "symbol": "SPMA",
+      "name": "Suparma Tbk.",
+      "yahoo_symbol": "SPMA.JK"
+    },
+    {
+      "symbol": "SPRE",
+      "name": "Soraya Berjaya Indonesia Tbk.",
+      "yahoo_symbol": "SPRE.JK"
+    },
+    {
+      "symbol": "SPTO",
+      "name": "Surya Pertiwi Tbk.",
+      "yahoo_symbol": "SPTO.JK"
+    },
+    {
+      "symbol": "SQMI",
+      "name": "Wilton Makmur Indonesia Tbk.",
+      "yahoo_symbol": "SQMI.JK"
+    },
+    {
+      "symbol": "SRAJ",
+      "name": "Sejahteraraya Anugrahjaya Tbk.",
+      "yahoo_symbol": "SRAJ.JK"
+    },
+    {
+      "symbol": "SRIL",
+      "name": "Sri Rejeki Isman Tbk.",
+      "yahoo_symbol": "SRIL.JK"
+    },
+    {
+      "symbol": "SRSN",
+      "name": "Indo Acidatama Tbk",
+      "yahoo_symbol": "SRSN.JK"
+    },
+    {
+      "symbol": "SRTG",
+      "name": "Saratoga Investama Sedaya Tbk.",
+      "yahoo_symbol": "SRTG.JK"
+    },
+    {
+      "symbol": "SSIA",
+      "name": "Surya Semesta Internusa Tbk.",
+      "yahoo_symbol": "SSIA.JK"
+    },
+    {
+      "symbol": "SSMS",
+      "name": "Sawit Sumbermas Sarana Tbk.",
+      "yahoo_symbol": "SSMS.JK"
+    },
+    {
+      "symbol": "SSTM",
+      "name": "Sunson Textile Manufacture Tbk",
+      "yahoo_symbol": "SSTM.JK"
+    },
+    {
+      "symbol": "STAA",
+      "name": "Sumber Tani Agung Resources Tb",
+      "yahoo_symbol": "STAA.JK"
+    },
+    {
+      "symbol": "STAR",
+      "name": "Calculus Global Ventures Tbk.",
+      "yahoo_symbol": "STAR.JK"
+    },
+    {
+      "symbol": "STRK",
+      "name": "Lovina Beach Brewery Tbk.",
+      "yahoo_symbol": "STRK.JK"
+    },
+    {
+      "symbol": "STTP",
+      "name": "Siantar Top Tbk.",
+      "yahoo_symbol": "STTP.JK"
+    },
+    {
+      "symbol": "SUGI",
+      "name": "Sugih Energy Tbk.",
+      "yahoo_symbol": "SUGI.JK"
+    },
+    {
+      "symbol": "SULI",
+      "name": "SLJ Global Tbk.",
+      "yahoo_symbol": "SULI.JK"
+    },
+    {
+      "symbol": "SUNI",
+      "name": "Sunindo Pratama Tbk.",
+      "yahoo_symbol": "SUNI.JK"
+    },
+    {
+      "symbol": "SUPA",
+      "name": "Super Bank Indonesia Tbk.",
+      "yahoo_symbol": "SUPA.JK"
+    },
+    {
+      "symbol": "SUPR",
+      "name": "Solusi Tunas Pratama Tbk.",
+      "yahoo_symbol": "SUPR.JK"
+    },
+    {
+      "symbol": "SURE",
+      "name": "Super Energy Tbk.",
+      "yahoo_symbol": "SURE.JK"
+    },
+    {
+      "symbol": "SURI",
+      "name": "Maja Agung Latexindo Tbk.",
+      "yahoo_symbol": "SURI.JK"
+    },
+    {
+      "symbol": "SWAT",
+      "name": "Sriwahana Adityakarta Tbk.",
+      "yahoo_symbol": "SWAT.JK"
+    },
+    {
+      "symbol": "SWID",
+      "name": "Saraswanti Indoland Developmen",
+      "yahoo_symbol": "SWID.JK"
+    },
+    {
+      "symbol": "TALF",
+      "name": "Tunas Alfin Tbk.",
+      "yahoo_symbol": "TALF.JK"
+    },
+    {
+      "symbol": "TAMA",
+      "name": "Lancartama Sejati Tbk.",
+      "yahoo_symbol": "TAMA.JK"
+    },
+    {
+      "symbol": "TAMU",
+      "name": "Pelayaran Tamarin Samudra Tbk.",
+      "yahoo_symbol": "TAMU.JK"
+    },
+    {
+      "symbol": "TAPG",
+      "name": "Triputra Agro Persada Tbk.",
+      "yahoo_symbol": "TAPG.JK"
+    },
+    {
+      "symbol": "TARA",
+      "name": "Agung Semesta Sejahtera Tbk.",
+      "yahoo_symbol": "TARA.JK"
+    },
+    {
+      "symbol": "TAXI",
+      "name": "Express Transindo Utama Tbk.",
+      "yahoo_symbol": "TAXI.JK"
+    },
+    {
+      "symbol": "TAYS",
+      "name": "Jaya Swarasa Agung Tbk.",
+      "yahoo_symbol": "TAYS.JK"
+    },
+    {
+      "symbol": "TBIG",
+      "name": "Tower Bersama Infrastructure T",
+      "yahoo_symbol": "TBIG.JK"
+    },
+    {
+      "symbol": "TBLA",
+      "name": "Tunas Baru Lampung Tbk.",
+      "yahoo_symbol": "TBLA.JK"
+    },
+    {
+      "symbol": "TBMS",
+      "name": "Tembaga Mulia Semanan Tbk.",
+      "yahoo_symbol": "TBMS.JK"
+    },
+    {
+      "symbol": "TCID",
+      "name": "Mandom Indonesia Tbk.",
+      "yahoo_symbol": "TCID.JK"
+    },
+    {
+      "symbol": "TCPI",
+      "name": "Transcoal Pacific Tbk.",
+      "yahoo_symbol": "TCPI.JK"
+    },
+    {
+      "symbol": "TDPM",
+      "name": "Tianrong Chemicals Industry Tb",
+      "yahoo_symbol": "TDPM.JK"
+    },
+    {
+      "symbol": "TEBE",
+      "name": "Dana Brata Luhur Tbk.",
+      "yahoo_symbol": "TEBE.JK"
+    },
+    {
+      "symbol": "TECH",
+      "name": "Indosterling Technomedia Tbk.",
+      "yahoo_symbol": "TECH.JK"
+    },
+    {
+      "symbol": "TELE",
+      "name": "Omni Inovasi Indonesia Tbk.",
+      "yahoo_symbol": "TELE.JK"
+    },
+    {
+      "symbol": "TFAS",
+      "name": "Telefast Indonesia Tbk.",
+      "yahoo_symbol": "TFAS.JK"
+    },
+    {
+      "symbol": "TFCO",
+      "name": "Tifico Fiber Indonesia Tbk.",
+      "yahoo_symbol": "TFCO.JK"
+    },
+    {
+      "symbol": "TGKA",
+      "name": "Tigaraksa Satria Tbk.",
+      "yahoo_symbol": "TGKA.JK"
+    },
+    {
+      "symbol": "TGRA",
+      "name": "Terregra Asia Energy Tbk.",
+      "yahoo_symbol": "TGRA.JK"
+    },
+    {
+      "symbol": "TGUK",
+      "name": "Platinum Wahab Nusantara Tbk.",
+      "yahoo_symbol": "TGUK.JK"
+    },
+    {
+      "symbol": "TIFA",
+      "name": "KDB Tifa Finance Tbk.",
+      "yahoo_symbol": "TIFA.JK"
+    },
+    {
+      "symbol": "TINS",
+      "name": "TIMAH (Persero) Tbk.",
+      "yahoo_symbol": "TINS.JK"
+    },
+    {
+      "symbol": "TIRA",
+      "name": "Tira Austenite Tbk",
+      "yahoo_symbol": "TIRA.JK"
+    },
+    {
+      "symbol": "TIRT",
+      "name": "Tirta Mahakam Resources Tbk",
+      "yahoo_symbol": "TIRT.JK"
+    },
+    {
+      "symbol": "TKIM",
+      "name": "Pabrik Kertas Tjiwi Kimia Tbk.",
+      "yahoo_symbol": "TKIM.JK"
+    },
+    {
+      "symbol": "TLDN",
+      "name": "Teladan Prima Agro Tbk.",
+      "yahoo_symbol": "TLDN.JK"
+    },
+    {
+      "symbol": "TLKM",
+      "name": "Telkom Indonesia (Persero) Tbk",
+      "yahoo_symbol": "TLKM.JK"
+    },
+    {
+      "symbol": "TMAS",
+      "name": "Temas Tbk.",
+      "yahoo_symbol": "TMAS.JK"
+    },
+    {
+      "symbol": "TMPO",
+      "name": "Tempo Intimedia Tbk.",
+      "yahoo_symbol": "TMPO.JK"
+    },
+    {
+      "symbol": "TNCA",
+      "name": "Trimuda Nuansa Citra Tbk.",
+      "yahoo_symbol": "TNCA.JK"
+    },
+    {
+      "symbol": "TOBA",
+      "name": "TBS Energi Utama Tbk.",
+      "yahoo_symbol": "TOBA.JK"
+    },
+    {
+      "symbol": "TOOL",
+      "name": "Rohartindo Nusantara Luas Tbk.",
+      "yahoo_symbol": "TOOL.JK"
+    },
+    {
+      "symbol": "TOPS",
+      "name": "Totalindo Eka Persada Tbk.",
+      "yahoo_symbol": "TOPS.JK"
+    },
+    {
+      "symbol": "TOSK",
+      "name": "Topindo Solusi Komunika Tbk.",
+      "yahoo_symbol": "TOSK.JK"
+    },
+    {
+      "symbol": "TOTL",
+      "name": "Total Bangun Persada Tbk.",
+      "yahoo_symbol": "TOTL.JK"
+    },
+    {
+      "symbol": "TOTO",
+      "name": "Surya Toto Indonesia Tbk.",
+      "yahoo_symbol": "TOTO.JK"
+    },
+    {
+      "symbol": "TOWR",
+      "name": "Sarana Menara Nusantara Tbk.",
+      "yahoo_symbol": "TOWR.JK"
+    },
+    {
+      "symbol": "TOYS",
+      "name": "Sunindo Adipersada Tbk.",
+      "yahoo_symbol": "TOYS.JK"
+    },
+    {
+      "symbol": "TPIA",
+      "name": "Chandra Asri Pacific Tbk.",
+      "yahoo_symbol": "TPIA.JK"
+    },
+    {
+      "symbol": "TPMA",
+      "name": "Trans Power Marine Tbk.",
+      "yahoo_symbol": "TPMA.JK"
+    },
+    {
+      "symbol": "TRAM",
+      "name": "Trada Alam Minera Tbk.",
+      "yahoo_symbol": "TRAM.JK"
+    },
+    {
+      "symbol": "TRGU",
+      "name": "Cerestar Indonesia Tbk.",
+      "yahoo_symbol": "TRGU.JK"
+    },
+    {
+      "symbol": "TRIL",
+      "name": "Triwira Insanlestari Tbk.",
+      "yahoo_symbol": "TRIL.JK"
+    },
+    {
+      "symbol": "TRIM",
+      "name": "Trimegah Sekuritas Indonesia T",
+      "yahoo_symbol": "TRIM.JK"
+    },
+    {
+      "symbol": "TRIN",
+      "name": "Perintis Triniti Properti Tbk.",
+      "yahoo_symbol": "TRIN.JK"
+    },
+    {
+      "symbol": "TRIO",
+      "name": "Trikomsel Oke Tbk.",
+      "yahoo_symbol": "TRIO.JK"
+    },
+    {
+      "symbol": "TRIS",
+      "name": "Trisula International Tbk.",
+      "yahoo_symbol": "TRIS.JK"
+    },
+    {
+      "symbol": "TRJA",
+      "name": "Transkon Jaya Tbk.",
+      "yahoo_symbol": "TRJA.JK"
+    },
+    {
+      "symbol": "TRON",
+      "name": "Teknologi Karya Digital Nusa T",
+      "yahoo_symbol": "TRON.JK"
+    },
+    {
+      "symbol": "TRST",
+      "name": "Trias Sentosa Tbk.",
+      "yahoo_symbol": "TRST.JK"
+    },
+    {
+      "symbol": "TRUE",
+      "name": "Triniti Dinamik Tbk.",
+      "yahoo_symbol": "TRUE.JK"
+    },
+    {
+      "symbol": "TRUK",
+      "name": "Guna Timur Raya Tbk.",
+      "yahoo_symbol": "TRUK.JK"
+    },
+    {
+      "symbol": "TRUS",
+      "name": "Trust Finance Indonesia Tbk",
+      "yahoo_symbol": "TRUS.JK"
+    },
+    {
+      "symbol": "TSPC",
+      "name": "Tempo Scan Pacific Tbk.",
+      "yahoo_symbol": "TSPC.JK"
+    },
+    {
+      "symbol": "TUGU",
+      "name": "Asuransi Tugu Pratama Indonesi",
+      "yahoo_symbol": "TUGU.JK"
+    },
+    {
+      "symbol": "TYRE",
+      "name": "King Tire Indonesia Tbk.",
+      "yahoo_symbol": "TYRE.JK"
+    },
+    {
+      "symbol": "UANG",
+      "name": "Pakuan Tbk.",
+      "yahoo_symbol": "UANG.JK"
+    },
+    {
+      "symbol": "UCID",
+      "name": "Uni-Charm Indonesia Tbk.",
+      "yahoo_symbol": "UCID.JK"
+    },
+    {
+      "symbol": "UDNG",
+      "name": "Agro Bahari Nusantara Tbk.",
+      "yahoo_symbol": "UDNG.JK"
+    },
+    {
+      "symbol": "UFOE",
+      "name": "Damai Sejahtera Abadi Tbk.",
+      "yahoo_symbol": "UFOE.JK"
+    },
+    {
+      "symbol": "ULTJ",
+      "name": "Ultrajaya Milk Industry & Trad",
+      "yahoo_symbol": "ULTJ.JK"
+    },
+    {
+      "symbol": "UNIC",
+      "name": "Unggul Indah Cahaya Tbk.",
+      "yahoo_symbol": "UNIC.JK"
+    },
+    {
+      "symbol": "UNIQ",
+      "name": "Ulima Nitra Tbk.",
+      "yahoo_symbol": "UNIQ.JK"
+    },
+    {
+      "symbol": "UNIT",
+      "name": "Nusantara Inti Corpora Tbk",
+      "yahoo_symbol": "UNIT.JK"
+    },
+    {
+      "symbol": "UNSP",
+      "name": "Bakrie Sumatera Plantations Tb",
+      "yahoo_symbol": "UNSP.JK"
+    },
+    {
+      "symbol": "UNTD",
+      "name": "Terang Dunia Internusa Tbk.",
+      "yahoo_symbol": "UNTD.JK"
+    },
+    {
+      "symbol": "UNTR",
+      "name": "United Tractors Tbk.",
+      "yahoo_symbol": "UNTR.JK"
+    },
+    {
+      "symbol": "UNVR",
+      "name": "Unilever Indonesia Tbk.",
+      "yahoo_symbol": "UNVR.JK"
+    },
+    {
+      "symbol": "URBN",
+      "name": "Urban Jakarta Propertindo Tbk.",
+      "yahoo_symbol": "URBN.JK"
+    },
+    {
+      "symbol": "UVCR",
+      "name": "Trimegah Karya Pratama Tbk.",
+      "yahoo_symbol": "UVCR.JK"
+    },
+    {
+      "symbol": "VAST",
+      "name": "Vastland Indonesia Tbk.",
+      "yahoo_symbol": "VAST.JK"
+    },
+    {
+      "symbol": "VERN",
+      "name": "Verona Indah Pictures Tbk.",
+      "yahoo_symbol": "VERN.JK"
+    },
+    {
+      "symbol": "VICI",
+      "name": "Victoria Care Indonesia Tbk.",
+      "yahoo_symbol": "VICI.JK"
+    },
+    {
+      "symbol": "VICO",
+      "name": "Victoria Investama Tbk.",
+      "yahoo_symbol": "VICO.JK"
+    },
+    {
+      "symbol": "VINS",
+      "name": "Victoria Insurance Tbk.",
+      "yahoo_symbol": "VINS.JK"
+    },
+    {
+      "symbol": "VISI",
+      "name": "Satu Visi Putra Tbk.",
+      "yahoo_symbol": "VISI.JK"
+    },
+    {
+      "symbol": "VIVA",
+      "name": "Visi Media Asia Tbk.",
+      "yahoo_symbol": "VIVA.JK"
+    },
+    {
+      "symbol": "VKTR",
+      "name": "VKTR Teknologi Mobilitas Tbk.",
+      "yahoo_symbol": "VKTR.JK"
+    },
+    {
+      "symbol": "VOKS",
+      "name": "Voksel Electric Tbk.",
+      "yahoo_symbol": "VOKS.JK"
+    },
+    {
+      "symbol": "VRNA",
+      "name": "Mizuho Leasing Indonesia Tbk.",
+      "yahoo_symbol": "VRNA.JK"
+    },
+    {
+      "symbol": "VTNY",
+      "name": "Venteny Fortuna International ",
+      "yahoo_symbol": "VTNY.JK"
+    },
+    {
+      "symbol": "WAPO",
+      "name": "Wahana Pronatural Tbk.",
+      "yahoo_symbol": "WAPO.JK"
+    },
+    {
+      "symbol": "WBSA",
+      "name": "BSA Logistics Indonesia Tbk.",
+      "yahoo_symbol": "WBSA.JK"
+    },
+    {
+      "symbol": "WEGE",
+      "name": "Wijaya Karya Bangunan Gedung T",
+      "yahoo_symbol": "WEGE.JK"
+    },
+    {
+      "symbol": "WEHA",
+      "name": "WEHA Transportasi Indonesia Tb",
+      "yahoo_symbol": "WEHA.JK"
+    },
+    {
+      "symbol": "WGSH",
+      "name": "Wira Global Solusi Tbk.",
+      "yahoo_symbol": "WGSH.JK"
+    },
+    {
+      "symbol": "WICO",
+      "name": "Wicaksana Overseas Internation",
+      "yahoo_symbol": "WICO.JK"
+    },
+    {
+      "symbol": "WIDI",
+      "name": "Widiant Jaya Krenindo Tbk.",
+      "yahoo_symbol": "WIDI.JK"
+    },
+    {
+      "symbol": "WIFI",
+      "name": "Solusi Sinergi Digital Tbk.",
+      "yahoo_symbol": "WIFI.JK"
+    },
+    {
+      "symbol": "WIIM",
+      "name": "Wismilak Inti Makmur Tbk.",
+      "yahoo_symbol": "WIIM.JK"
+    },
+    {
+      "symbol": "WIKA",
+      "name": "Wijaya Karya (Persero) Tbk.",
+      "yahoo_symbol": "WIKA.JK"
+    },
+    {
+      "symbol": "WINE",
+      "name": "Hatten Bali Tbk.",
+      "yahoo_symbol": "WINE.JK"
+    },
+    {
+      "symbol": "WINR",
+      "name": "Winner Nusantara Jaya Tbk.",
+      "yahoo_symbol": "WINR.JK"
+    },
+    {
+      "symbol": "WINS",
+      "name": "Wintermar Offshore Marine Tbk.",
+      "yahoo_symbol": "WINS.JK"
+    },
+    {
+      "symbol": "WIRG",
+      "name": "WIR ASIA Tbk.",
+      "yahoo_symbol": "WIRG.JK"
+    },
+    {
+      "symbol": "WMPP",
+      "name": "Widodo Makmur Perkasa Tbk.",
+      "yahoo_symbol": "WMPP.JK"
+    },
+    {
+      "symbol": "WMUU",
+      "name": "Widodo Makmur Unggas Tbk.",
+      "yahoo_symbol": "WMUU.JK"
+    },
+    {
+      "symbol": "WOMF",
+      "name": "Wahana Ottomitra Multiartha Tb",
+      "yahoo_symbol": "WOMF.JK"
+    },
+    {
+      "symbol": "WOOD",
+      "name": "Integra Indocabinet Tbk.",
+      "yahoo_symbol": "WOOD.JK"
+    },
+    {
+      "symbol": "WOWS",
+      "name": "Ginting Jaya Energi Tbk.",
+      "yahoo_symbol": "WOWS.JK"
+    },
+    {
+      "symbol": "WSBP",
+      "name": "Waskita Beton Precast Tbk.",
+      "yahoo_symbol": "WSBP.JK"
+    },
+    {
+      "symbol": "WSKT",
+      "name": "Waskita Karya (Persero) Tbk.",
+      "yahoo_symbol": "WSKT.JK"
+    },
+    {
+      "symbol": "WTON",
+      "name": "Wijaya Karya Beton Tbk.",
+      "yahoo_symbol": "WTON.JK"
+    },
+    {
+      "symbol": "YELO",
+      "name": "Yelooo Integra Datanet Tbk.",
+      "yahoo_symbol": "YELO.JK"
+    },
+    {
+      "symbol": "YOII",
+      "name": "Asuransi Digital Bersama Tbk.",
+      "yahoo_symbol": "YOII.JK"
+    },
+    {
+      "symbol": "YPAS",
+      "name": "Yanaprima Hastapersada Tbk",
+      "yahoo_symbol": "YPAS.JK"
+    },
+    {
+      "symbol": "YULE",
+      "name": "Yulie Sekuritas Indonesia Tbk.",
+      "yahoo_symbol": "YULE.JK"
+    },
+    {
+      "symbol": "YUPI",
+      "name": "Yupi Indo Jelly Gum Tbk.",
+      "yahoo_symbol": "YUPI.JK"
+    },
+    {
+      "symbol": "ZATA",
+      "name": "Bersama Zatta Jaya Tbk.",
+      "yahoo_symbol": "ZATA.JK"
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Dosni Roha Indonesia Tbk.",
+      "yahoo_symbol": "ZBRA.JK"
+    },
+    {
+      "symbol": "ZINC",
+      "name": "Kapuas Prima Coal Tbk.",
+      "yahoo_symbol": "ZINC.JK"
+    },
+    {
+      "symbol": "ZONE",
+      "name": "Mega Perintis Tbk.",
+      "yahoo_symbol": "ZONE.JK"
+    },
+    {
+      "symbol": "ZYRX",
+      "name": "Zyrexindo Mandiri Buana Tbk.",
+      "yahoo_symbol": "ZYRX.JK"
+    }
+  ]
+}
