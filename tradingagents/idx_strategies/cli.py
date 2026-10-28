@@ -17,6 +17,16 @@ def _costs(args):
     from tradingagents.idx_strategies.models import Costs, net_reference_return
 
     fields = (args.buy_fee, args.sell_fee, args.buy_slippage, args.sell_slippage)
+    profile_name = getattr(args, "cost_profile", None)
+    if profile_name:
+        if any(v is not None for v in fields):
+            raise ValueError("Do not combine a cost profile with manual fee/slippage overrides")
+        from tradingagents.idx_strategies.cost_profiles import load_cost_profile
+
+        profile = load_cost_profile(profile_name)
+        fields = tuple(
+            profile[name] for name in ("buy_fee", "sell_fee", "buy_slippage", "sell_slippage")
+        )
     if all(v is None for v in fields):
         return None
     if any(v is None for v in fields):
@@ -79,6 +89,17 @@ def scan(args, calendar, *, clock=None, fetch_intraday=None, fetch_daily=None):
     started = clock()
     session = calendar.get(started.astimezone(JAKARTA).date())
     costs = _costs(args)
+    cost_profile = None
+    if getattr(args, "cost_profile", None):
+        from tradingagents.idx_strategies.cost_profiles import (
+            load_cost_profile,
+            load_cost_profile_metadata,
+        )
+
+        cost_profile = {
+            **load_cost_profile(args.cost_profile),
+            **load_cost_profile_metadata(args.cost_profile),
+        }
     store = Store(args.db)
     try:
         issuers = sorted(load_registry()["issuers"], key=lambda row: row["symbol"])
@@ -131,6 +152,7 @@ def scan(args, calendar, *, clock=None, fetch_intraday=None, fetch_daily=None):
                     )
                     if costs is not None:
                         row["costs"] = json_safe(costs)
+                        row["cost_profile"] = json_safe(cost_profile)
                     assessments.append(json_safe(row))
             except (ValueError, OSError, TypeError, KeyError) as exc:
                 failures += 1
@@ -187,6 +209,7 @@ def scan(args, calendar, *, clock=None, fetch_intraday=None, fetch_daily=None):
                 "registry_count": len(issuers),
                 "calendar_source": calendar.source_url,
                 "costs_supplied": costs is not None,
+                "cost_profile": json_safe(cost_profile),
                 "request_budget": args.limit,
                 "request_limit_scope": "ticker slots; max two history requests per ticker",
             },
@@ -311,6 +334,11 @@ def main(argv=None):
         if name != "evaluate":
             p.add_argument("--sessions", required=True)
         if name == "scan":
+            p.add_argument(
+                "--cost-profile",
+                choices=("stockbit",),
+                help="Stockbit standard fees + explicitly assumed 10bps slippage per side",
+            )
             p.add_argument("--strategy", choices=("day", "overnight", "both"), default="both")
             p.add_argument("--limit", type=int, default=25)
             for field in ("buy-fee", "sell-fee", "buy-slippage", "sell-slippage"):

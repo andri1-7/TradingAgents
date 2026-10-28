@@ -13,7 +13,7 @@ python -m tradingagents.idx_strategies settle --sessions /path/verified-sessions
 python -m tradingagents.idx_strategies evaluate --db /path/shadow.sqlite --output /path/evaluation.json
 ```
 
-Calendar is mandatory. Supply `source_url`, aware ISO `retrieved_at`, `timezone: Asia/Jakarta`, and `sessions` containing `{date: YYYY-MM-DD, intervals: [[aware_open, aware_close], ...]}`. Intervals are continuous trading only, excluding auctions/lunch. Include at least the preceding21 actual sessions for daily freshness/coverage, the current session and next session for overnight. No weekday-generated production calendar. A changed calendar fingerprint blocks settlement of admitted observations; preserve original file for pending trades. Calendar research and limited October28/29 sample exist locally outside the repository; this short sample does NOT establish preceding21session coverage.
+Calendar is mandatory. Supply `source_url`, aware ISO `retrieved_at`, `timezone: Asia/Jakarta`, and `sessions` containing `{date: YYYY-MM-DD, intervals: [[aware_open, aware_close], ...]}`. Intervals are continuous trading only, excluding auctions/lunch. Include at least the preceding21 actual sessions for daily freshness/coverage, the current session and next session for overnight. No weekday-generated production calendar. A changed calendar fingerprint blocks settlement of admitted observations; preserve original file for pending trades. A sourced bounded calendar is packaged at `tradingagents/assets/idx_sessions_2026.json`; see `docs/IDX-CALENDAR-SOURCES.md` for its exact coverage and evidence. This is a dated schedule snapshot, not a live halt/suspension feed. Out-of-coverage dates still fail closed.
 
 Supply all four explicit decimal-fraction cost flags to admit research setups:
 
@@ -21,7 +21,16 @@ Supply all four explicit decimal-fraction cost flags to admit research setups:
 --buy-fee YOUR_FRACTION --sell-fee YOUR_FRACTION --buy-slippage YOUR_FRACTION --sell-slippage YOUR_FRACTION
 ```
 
-There are no broker fee defaults. Missing costs prevent SETUP; zero values mean an explicitly hypothetical zero-cost scenario, not a realistic broker configuration. Monetary values use Decimal strings. Net outcomes are hypothetical reference returns, never actual portfolio PnL.
+Alternatively, explicitly select `--cost-profile stockbit`: buy fee **0.15%**, sell fee **0.25%**, plus **0.10% slippage per side** as an unmeasured research assumption, NOT a Stockbit fee or guaranteed execution bound. Profile source/assumptions persist in artifacts and observations. Do not combine the profile with manual overrides; use all four manual flags for a different scenario. No profile is silently enabled. Missing costs prevent SETUP. Meterai (Rp10,000 on qualifying daily trade confirmations) and datafeed costs are excluded because the return model has no portfolio notional/day-level allocation; reported net is after modeled proportional costs only, not all-in actual PnL.
+
+```sh
+python -m tradingagents.idx_strategies scan \
+  --sessions tradingagents/assets/idx_sessions_2026.json \
+  --cost-profile stockbit --strategy both --limit 3 \
+  --db /path/stockbit-shadow.sqlite --output /path/stockbit-scan.json
+```
+
+Monetary values use Decimal strings. Net outcomes remain hypothetical reference returns, never actual portfolio PnL.
 
 ## Policies v1
 
@@ -44,7 +53,7 @@ Artifacts contain max3unique WATCH/SHADOW_ENTERED cards and the full assessment 
 
 Yahoo5m adapter uses raw prices (`auto_adjust=False`) and actions, explicit aware bounds and closed bars only; vendor failures are categorized without exception text. No persistent provider cache was added: each saved provider envelope carries its receipt time. Probe actual retention using `scripts/probe_idx_intraday.py`; library support is not a retention guarantee. Missing bars are not filled. Illiquid/suspended names may be unavailable, and empty history does not prove suspension.
 
-A bounded3ticker live scan on2026-10-28 recorded two valid histories and one provider error, no entries. Settlement/evaluation ran with zero pending outcomes; no profit or win rate is claimed. This is partial operational evidence, not full962issuer monitoring. Operator broker fees and a sufficiently extensive verified calendar remain prerequisites for entry admission.
+A bounded3ticker live scan on2026-10-28 recorded two valid histories and one provider error, no entries. Settlement/evaluation ran with zero pending outcomes; no profit or win rate is claimed. This is partial operational evidence, not full962issuer monitoring. The follow-up Stockbit configuration supplies the standard proportional fees and explicitly assumed slippage, with a sourced 49-session bounded calendar. A new three-ticker live scan still recorded two valid histories, one provider error, and no setup outside the decision window. This does not establish signal profitability or all-in account costs.
 
 ## Verification
 

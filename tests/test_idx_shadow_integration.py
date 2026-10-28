@@ -170,6 +170,23 @@ def observations(args):
         store.close()
 
 
+def test_stockbit_profile_persisted_with_assumptions(tmp_path, monkeypatch, calendar):
+    registry(monkeypatch, ["AAAA.JK"])
+    args = arguments(tmp_path, strategy="both")
+    for field in ("buy_fee", "sell_fee", "buy_slippage", "sell_slippage"):
+        setattr(args, field, None)
+    args.cost_profile = "stockbit"
+    scan(args, calendar, [])
+    payload = artifact(args)
+    assert payload["coverage"]["cost_profile"]["buy_fee"] == "0.0015"
+    assert payload["coverage"]["cost_profile"]["buy_slippage"] == "0.001"
+    assert "Unmeasured" in payload["coverage"]["cost_profile"]["assumptions"]["slippage_basis"]
+    assert "stamp_duty" in payload["coverage"]["cost_profile"]["exclusions"]
+    for row in payload["assessments"]:
+        assert row["costs"]["sell_fee"] == "0.0025"
+        assert row["cost_profile"] == payload["coverage"]["cost_profile"]
+
+
 @pytest.mark.parametrize("reverse_registry", [False, True])
 def test_rotation_survives_reopen_and_scan_artifact_reconciles_database(
     tmp_path, monkeypatch, calendar, reverse_registry
