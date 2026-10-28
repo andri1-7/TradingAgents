@@ -101,7 +101,7 @@ class LocalCompatibleChatOpenAI(NormalizedChatOpenAI):
             def require_schema(value):
                 if isinstance(value, str):
                     return value + "\n\n" + instruction
-                messages = _input_to_messages(value)
+                messages = self._convert_input(value).to_messages()
                 return [*messages, HumanMessage(content=instruction)]
 
             return RunnableLambda(require_schema) | bound
