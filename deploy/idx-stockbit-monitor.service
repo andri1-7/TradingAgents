@@ -1,0 +1,20 @@
+[Unit]
+Description=IDX Stockbit shadow scanner with Sol/Jev support and shared Telegram delivery
+After=network-online.target 9router.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/projects/TradingAgents-indonesia
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/root/projects/TradingAgents-indonesia/.env
+ExecStart=/root/projects/TradingAgents/.venv/bin/python -m tradingagents.idx_strategies.monitor --db /root/projects/idx-stockbit-shadow.sqlite --state-db /root/projects/idx-stockbit-monitor.sqlite --output-dir /root/projects/idx-stockbit-monitor --sessions /root/projects/TradingAgents-indonesia/tradingagents/assets/idx_sessions_2026.json --telegram-env /srv/alt-whale-tracker/.env --interval 300 --ai-max-per-day 3 --notify-startup
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
