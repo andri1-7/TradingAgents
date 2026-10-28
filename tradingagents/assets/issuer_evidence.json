@@ -1,0 +1,19 @@
+{
+  "BBCA": {
+    "issuer": "PT Bank Central Asia Tbk",
+    "source_url": "https://bca.co.id/id/tentang-bca/media-riset/pressroom/siaran-pers/2026/07/29/07/10/pertama-kali-kredit-tembus-rp1000-triliun-bca-komit-dukung-perekonomian-nasional",
+    "source_type": "official issuer press release",
+    "url_date": "2026-07-29",
+    "body_date": "2026-07-28",
+    "available_after": "2026-07-30",
+    "timezone": "Asia/Jakarta",
+    "availability_basis": "URL path and displayed page date 2026-07-29; body dateline Jakarta, 28 Juli 2026 (2026-07-28). Conservatively usable from 2026-07-30 Asia/Jakarta, inclusive; not verified first publication. This is a source-date convention, not an independently archived historical publication timestamp.",
+    "excerpts": [
+      "Penyaluran kredit BCA per semester I-2026 tumbuh 8% YoY, dan untuk pertama kalinya menembus angka Rp1.000 triliun, tepatnya senilai Rp1.036 triliun.",
+      "Capaian tersebut didukung pendanaan solid, dengan pertumbuhan giro dan tabungan (CASA) 10,2% YoY mencapai Rp1.082 triliun.",
+      "Total Dana Pihak Ketiga (DPK) BCA naik 7,9% YoY mencapai Rp1.284 triliun.",
+      "Rasio loan at risk (LAR) dan non performing loan (NPL) terjaga masing-masing 4,9% dan 1,9%.",
+      "Total laba BCA dan entitas anak pada semester I 2026 mencapai Rp29,5 triliun."
+    ]
+  }
+}

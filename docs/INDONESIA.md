@@ -110,6 +110,14 @@ fallback HOLD rekaan). Laporan utama yang sudah selesai tetap dilabeli sebagai
 hasil model utama. Unit/integration test memakai graph/client/HTTP boundary
 mocked, tidak memanggil model berbayar dan tidak mengklaim validasi API live.
 
+## Perbaikan sumber data dan 9Router
+
+Untuk endpoint OpenAI-compatible yang sudah diuji menerima named tool choice, aktifkan `TRADINGAGENTS_STRUCTURED_OUTPUT_TOOL_CHOICE=required`. Mode ini memilih tool skema dan menegaskan bahwa instruksi bagian laporan adalah isi field, bukan izin menjawab prosa. Default endpoint generik tetap `auto`; kebijakan kosong dari environment diperlakukan sebagai default. Ini bukan jaminan model tidak pernah gagal; fallback tetap dilaporkan bila terjadi.
+
+Profil IDX memilih `idx_news,yfinance` untuk berita dan `issuer_evidence,yfinance` untuk overview fundamental. [Berita RSS](IDX-NEWS.md) hanya memberi metadata bertanggal, bukan full article atau arsip point-in-time terverifikasi. [Bukti issuer](ISSUER-EVIDENCE.md) saat ini hanya mencakup kutipan siaran resmi BBCA dengan konvensi batas tanggal yang diungkapkan, bukan laporan keuangan historis lengkap atau valuasi direkonstruksi. Statement Yahoo historis tetap ditahan bila vintage filing tidak diketahui. Macro FRED tetap opsional dan membutuhkan key tersendiri.
+
+Pada batas tool rounds, analis teknikal IDX mengambil snapshot terverifikasi yang belum tersedia sebelum laporan final; kegagalan snapshot dinyatakan eksplisit. Tidak ada angka yang dibuat untuk mengisi data kosong.
+
 ## Registry emiten BEI
 
 Registry bawaan memuat **962 kode unik** dari snapshot endpoint saham BEI, termasuk papan pemantauan khusus. Semua baris snapshot didaftarkan, bukan hanya lima contoh. Ini **belum terbukti seluruh emiten terkini**: ANTARA mengutip 963 perusahaan per 23 Oktober 2026, sedangkan sumber yang dapat diambil mengembalikan 962. Selisih belum terjelaskan; tidak ada kode yang dikarang. Dataset-as-of tidak diketahui; timestamp pengambilan bukan tanggal berlaku data. Lihat [provenance](IDX-DATA-SOURCES.md).

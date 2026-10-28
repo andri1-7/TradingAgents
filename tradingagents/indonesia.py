@@ -19,6 +19,10 @@ def build_indonesia_config() -> dict:
     )
     for category in ("core_stock_apis", "technical_indicators", "fundamental_data", "news_data"):
         config["data_vendors"][category] = "yfinance"
+    config["tool_vendors"].update({
+        "get_news": "idx_news,yfinance",
+        "get_fundamentals": "issuer_evidence,yfinance",
+    })
     return config
 
 
