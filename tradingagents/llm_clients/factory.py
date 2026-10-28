@@ -111,6 +111,12 @@ def build_llm_kwargs(config: dict) -> dict[str, Any]:
         if effort:
             kwargs["effort"] = effort
 
+    # Verified generic endpoints may opt in to forcing the schema tool.
+    if provider in ("openai_compatible", "ollama"):
+        policy = config.get("structured_output_tool_choice")
+        if policy is not None:
+            kwargs["structured_output_tool_choice"] = policy
+
     # Sampling temperature is cross-provider: forward it whenever set.
     # float() here so a value coming from a TRADINGAGENTS_TEMPERATURE env
     # string ("0.2") works the same as a programmatic float.

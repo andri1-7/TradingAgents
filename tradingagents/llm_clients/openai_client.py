@@ -3,10 +3,11 @@ import os
 import re
 from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Literal
 from urllib.parse import urlparse
 
 from langchain_core.messages import AIMessage
+from langchain_core.utils.function_calling import convert_to_openai_tool
 from langchain_openai import ChatOpenAI
 
 from .api_key_env import get_api_key_env
@@ -63,13 +64,48 @@ class LocalCompatibleChatOpenAI(NormalizedChatOpenAI):
     ``tool_choice`` langchain sends for function-calling structured output. Bind
     the schema as a tool but don't force tool_choice, so structured output works
     across local servers regardless of the model ID's capabilities (#1057).
+
+    Verified endpoints can opt in with ``structured_output_tool_choice="required"``
+    (client kwarg or config key), or
+    ``TRADINGAGENTS_STRUCTURED_OUTPUT_TOOL_CHOICE=required``. This forces the
+    named schema tool for function-calling output only. ``auto`` (the default)
+    retains the historical omission; explicit config overrides the environment,
+    and an explicit per-call ``tool_choice`` overrides either policy. Other
+    providers are unaffected. Invalid policy values fail during client creation.
     """
+
+    structured_output_tool_choice: Literal["auto", "required"] = "auto"
 
     def with_structured_output(self, schema, *, method=None, **kwargs):
         resolved = method or get_capabilities(self.model_name).preferred_structured_method
+        explicit_tool_choice = "tool_choice" in kwargs
         if resolved == "function_calling":
-            kwargs.setdefault("tool_choice", None)
-        return super().with_structured_output(schema, method=method, **kwargs)
+            # Opt in only for endpoints verified to support named tool choice.
+            # Select this schema, not just any tool; preserve per-call overrides.
+            choice = None
+            if self.structured_output_tool_choice == "required":
+                choice = convert_to_openai_tool(schema)["function"]["name"]
+            kwargs.setdefault("tool_choice", choice)
+        bound = super().with_structured_output(schema, method=method, **kwargs)
+        if resolved == "function_calling" and self.structured_output_tool_choice == "required" and not explicit_tool_choice:
+            from langchain_core.messages import HumanMessage
+            from langchain_core.runnables import RunnableLambda
+
+            name = convert_to_openai_tool(schema)["function"]["name"]
+            instruction = (
+                f"FORMAT OVERRIDE: Earlier section-writing instructions describe field content only. "
+                f"You MUST call the {name} function exactly once to return your answer. "
+                "Do not produce a prose response. Put your answer into the function arguments."
+            )
+
+            def require_schema(value):
+                if isinstance(value, str):
+                    return value + "\n\n" + instruction
+                messages = self._convert_input(value).to_messages()
+                return [*messages, HumanMessage(content=instruction)]
+
+            return RunnableLambda(require_schema) | bound
+        return bound
 
 
 def _input_to_messages(input_: Any) -> list:
@@ -402,6 +438,12 @@ class OpenAIClient(BaseLLMClient):
             if key == "reasoning_effort" and not _supports_reasoning_effort(self.model):
                 continue
             llm_kwargs[key] = self.kwargs[key]
+
+        if issubclass(chat_cls, LocalCompatibleChatOpenAI):
+            llm_kwargs["structured_output_tool_choice"] = self.kwargs.get(
+                "structured_output_tool_choice",
+                os.environ.get("TRADINGAGENTS_STRUCTURED_OUTPUT_TOOL_CHOICE") or "auto",
+            )
 
         # The subclass (provider quirks) comes from the registry spec.
         return chat_cls(**llm_kwargs)

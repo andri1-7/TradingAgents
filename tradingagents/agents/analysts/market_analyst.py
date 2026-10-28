@@ -1,6 +1,7 @@
+from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
-from tradingagents.agents.analysts.turn import take_turn
+from tradingagents.agents.analysts.turn import WRAP_UP, take_turn
 from tradingagents.agents.context import get_instrument_context_from_state, get_language_instruction
 from tradingagents.agents.tools import get_indicators, get_stock_data, get_verified_market_snapshot
 
@@ -74,10 +75,50 @@ Write a very detailed and nuanced report of the trends you observe. Provide spec
         prompt = prompt.partial(current_date=current_date)
         prompt = prompt.partial(instrument_context=instrument_context)
 
-        result, report = take_turn(prompt, llm, TOOLS, state["messages"])
+        messages = state["messages"]
+        snapshot_messages = []
+        # The round cap may be reached before the model requests verification.
+        # Fetch deterministically, without another tool/LLM round, and keep the
+        # wrap-up sentinel last so take_turn still uses its no-tools path.
+        if (
+            state["company_of_interest"].upper().endswith(".JK")
+            and messages
+            and isinstance(messages[-1], HumanMessage)
+            and messages[-1].content == WRAP_UP
+            and not any(
+                (isinstance(message, (ToolMessage, HumanMessage))
+                 and message.name == get_verified_market_snapshot.name)
+                or (isinstance(message, AIMessage) and any(
+                    call["name"] == get_verified_market_snapshot.name
+                    for call in message.tool_calls
+                ))
+                for message in messages
+            )
+        ):
+            try:
+                snapshot = get_verified_market_snapshot.func(
+                    symbol=state["company_of_interest"],
+                    curr_date=current_date,
+                    trade_date=current_date,
+                )
+            except Exception as exc:
+                # Verification is best-effort, never evidence invented to fill
+                # a vendor outage or a reason to spend another model round.
+                snapshot = (
+                    f"Verified market snapshot unavailable for "
+                    f"{state['company_of_interest']} as of {current_date}: {exc}. "
+                    "Do not present exact market-data claims as verified."
+                )
+            snapshot_messages = [HumanMessage(
+                name=get_verified_market_snapshot.name,
+                content=f"[get_verified_market_snapshot returned]\n{snapshot}",
+            )]
+            messages = [*messages[:-1], *snapshot_messages, messages[-1]]
+
+        result, report = take_turn(prompt, llm, TOOLS, messages)
 
         return {
-            "messages": [result],
+            "messages": [*snapshot_messages, result],
             "market_report": report,
         }
 

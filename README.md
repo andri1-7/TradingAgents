@@ -29,6 +29,15 @@
 
 # TradingAgents: Multi-Agents LLM Financial Trading Framework
 
+## Indonesia / IDX support
+
+See [Panduan saham Indonesia](docs/INDONESIA.md) for Indonesian-language analysis,
+IDX/BEI symbols, IDR/Jakarta context and a data-only check without an LLM:
+
+```sh
+python -m tradingagents.indonesia --ticker BBCA --date 2026-10-26 --check-data
+```
+
 ## News
 
 <!-- news:start -->

@@ -161,6 +161,24 @@ def build_instrument_context(
             "result explicitly disproves this resolved identity."
         )
 
+    if ticker.upper().endswith(".JK"):
+        context += (
+            " Market context: Indonesia Stock Exchange (IDX / BEI), equity quotes in IDR;"
+            " session dates use Asia/Jakarta (WIB). Benchmark: IHSG / Jakarta Composite (^JKSE)."
+            " Structured numeric price/quantity fields must be JSON numbers with a"
+            " '.' decimal separator and no thousands separators or IDR/Rp prefixes"
+            " (e.g. 9000.5, not 9.000,50). Human-readable reports may localize numbers,"
+            " but structured values must remain canonical."
+            " Financial statement currency and scale must come from the source, not the quote currency."
+            " US SEC filings and US insider-reporting rules are not Indonesian coverage."
+            " Treat missing fundamentals, news or insider data as unavailable, never as zero"
+            " activity or evidence of no transactions. Do not invent local disclosures;"
+            " verify material claims against IDX, OJK or issuer disclosures."
+            " Use long-only framing unless the caller proves short eligibility: SELL means"
+            " reduce/exit an existing holding, not open a short. Execution, fees, liquidity,"
+            " lot sizing and exchange restrictions are not validated by this analysis."
+        )
+
     if is_crypto:
         context += (
             " Treat it as a crypto asset rather than a company, and do not "

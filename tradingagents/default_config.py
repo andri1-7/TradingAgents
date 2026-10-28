@@ -180,6 +180,7 @@ def build_default_config() -> dict:
         "holding_period_days": 5,
         "benchmark_ticker": None,
         "benchmark_map": {
+            ".JK":  "^JKSE",       # Indonesia (IHSG / Jakarta Composite)
             ".NS":  "^NSEI",       # NSE India (Nifty 50)
             ".BO":  "^BSESN",      # BSE India (Sensex)
             ".T":   "^N225",       # Tokyo (Nikkei 225)
